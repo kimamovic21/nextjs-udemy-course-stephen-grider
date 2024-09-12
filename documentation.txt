@@ -12,3 +12,8 @@ Section 01 - Get Started Here !
 
 03. File-Based Routing
 -u page.tsx fajlu izbrisemo sadrzaj u jsx-u i ostavimo samo jedan div element
+
+04. Adding Additional Routes
+-kreiramo foldere performance, reliability i scale
+-u svakom kreiranom folderu kreiramo page.tsx fajl
+-u svakom page.tsx fajlu kreiramo i eksportujemo funkciju
