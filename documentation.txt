@@ -38,3 +38,8 @@ Section 01 - Get Started Here !
 
 09. Image Files + Import Update
 -preuzmemo folder sa slikama koje su potrebne za projekt
+
+10. Adding Images in Next JS
+-kreiramo folder public i koji dodajemo prethodno preuzete slike
+-u app/page.tsx fajl importujemo komponentu Image iz next/image paketa
+-importujemo sliku homeImg 
