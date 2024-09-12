@@ -32,3 +32,6 @@ Section 01 - Get Started Here !
 -u folderu src kreiramo folder components
 -u folderu components kreiramo header.tsx komponentu
 -u layout.tsx fajl importujemo komponentu header.tsx
+
+08. Absolute Path Import Shortcut
+-u layout.tsx fajl dodajemo @ kod importa komponente header.tsx
