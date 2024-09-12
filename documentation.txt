@@ -46,3 +46,19 @@ Section 01 - Get Started Here !
 
 11. More on the Image Component
 -u app/page.tsx fajlu komponenti Image dodajemo prop width i height
+
+12. Adding a Reusable Presentation Component
+-u folderu components kreiramo komponentu hero.tsx
+-div element sa slikom iz app/page.tsx fajla premjestamo u komponentu hero.tsx 
+-u komponentu hero.tsx importujemo tip StaticImageData iz paketa next/image
+-importujemo komponentu Image iz paketa next/image
+-kreiramo interfejs interface HeroProps
+-u interfejs HeroProps dodajemo opcije imgData, imgAlt i title
+-kreiramo div element koji ce da sluzi gradient 
+-funkciji Hero() dodajemo parametar props: HeroProps
+-u jsx-u komponenti Image, dodajemo u src i alt vrijednosti imgData i imgAlt 
+-kreiramo div element i unutar njega h1 element
+-u h1 element dodajemo naslov props.title
+-u app/page.tsx fajl importujemo komponentu hero.tsx
+-u jsx-u kreiramo komponentu Hero
+-komponenti Hero dodajemo prop imgData, imgAlt i title
