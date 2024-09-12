@@ -86,3 +86,9 @@ Section 02: Changing Data with Mutations
 
 17. App Overview
 -kreiramo Next.js projekt sa imenom snippets
+
+18. Project Setup
+-u terminalu navigiramo u projekt snippets u ukucamo komandu npm i prisma
+-u terminalu ukucamo komandu npx prisma init --datasource-provider sqlite
+-u schema.prisma fajlu kreiramo model Snippet
+-u terminal ukucamo komandu npx prisma migrate dev
