@@ -92,3 +92,10 @@ Section 02: Changing Data with Mutations
 -u terminalu ukucamo komandu npx prisma init --datasource-provider sqlite
 -u schema.prisma fajlu kreiramo model Snippet
 -u terminal ukucamo komandu npx prisma migrate dev
+
+19. Adding a Create Page
+-u globals.css fajlu izbrisemo css stil
+-u app/page.tsx fajlu ostavimo samo div element
+-u folderu app kreiramo folder snippets
+-u folderu snippets kreiramo folder new
+-u folderu new kreiramo page.tsx fajl
