@@ -80,3 +80,9 @@ Section 01 - Get Started Here !
 16. Course Diagrams
 -preuzet folder sa dijagramima 
 -kreiran folder 00-diagrams sa pdf fajlovima
+
+
+Section 02: Changing Data with Mutations
+
+17. App Overview
+-kreiramo Next.js projekt sa imenom snippets
