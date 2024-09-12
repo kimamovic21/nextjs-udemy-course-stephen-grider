@@ -35,3 +35,6 @@ Section 01 - Get Started Here !
 
 08. Absolute Path Import Shortcut
 -u layout.tsx fajl dodajemo @ kod importa komponente header.tsx
+
+09. Image Files + Import Update
+-preuzmemo folder sa slikama koje su potrebne za projekt
