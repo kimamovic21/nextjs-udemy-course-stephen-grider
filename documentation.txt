@@ -43,3 +43,6 @@ Section 01 - Get Started Here !
 -kreiramo folder public i koji dodajemo prethodno preuzete slike
 -u app/page.tsx fajl importujemo komponentu Image iz next/image paketa
 -importujemo sliku homeImg 
+
+11. More on the Image Component
+-u app/page.tsx fajlu komponenti Image dodajemo prop width i height
