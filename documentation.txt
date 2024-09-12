@@ -17,3 +17,8 @@ Section 01 - Get Started Here !
 -kreiramo foldere performance, reliability i scale
 -u svakom kreiranom folderu kreiramo page.tsx fajl
 -u svakom page.tsx fajlu kreiramo i eksportujemo funkciju
+
+05. Linking Between Pages
+-u app/page.txs fajl importujemo komponentu Link iz pakete next/link
+-u jsx-u kreiramo div element za komponente Link
+-kreiramo tri komponente Link sa prop href
