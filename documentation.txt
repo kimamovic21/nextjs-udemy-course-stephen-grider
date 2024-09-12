@@ -76,3 +76,7 @@ Section 01 - Get Started Here !
 
 15. Join Our Community!
 -link za pristup Diskord serveru
+
+16. Course Diagrams
+-preuzet folder sa dijagramima 
+-kreiran folder 00-diagrams sa pdf fajlovima
