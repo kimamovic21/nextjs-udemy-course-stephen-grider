@@ -62,3 +62,7 @@ Section 01 - Get Started Here !
 -u app/page.tsx fajl importujemo komponentu hero.tsx
 -u jsx-u kreiramo komponentu Hero
 -komponenti Hero dodajemo prop imgData, imgAlt i title
+
+13. Adding Some Styling
+-u folderima performance, reliability i scale, u page.tsx fajlove dodajemo slike i komponentu Hero
+-u komponentu header.tsx dodajemo Tailwind CSS stil 
