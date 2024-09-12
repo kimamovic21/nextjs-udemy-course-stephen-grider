@@ -106,3 +106,7 @@ Section 02: Changing Data with Mutations
 -dodajemo metodu new PrismaClient()
 -vrijednost metode new PrismaClient() pohranjujemo u varijablu const db
 -eksportujemo varijablu const db
+
+21. Adding a Creation Form
+-u layout.tsx fajlu kreiramo div element sa Tailwind CSS klasama u koji dodajemo prop children
+-u page.tsx fajlu kreiramo HTML elemente sa Tailwind CSS klasama za formu
