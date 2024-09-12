@@ -99,3 +99,10 @@ Section 02: Changing Data with Mutations
 -u folderu app kreiramo folder snippets
 -u folderu snippets kreiramo folder new
 -u folderu new kreiramo page.tsx fajl
+
+20. Creating a Prisma Client within Next.js
+-u src folderu kreiramo folder db i index.ts fajl
+-i index.ts fajl importujemo funkciju PrismaClient iz Prisma paketa
+-dodajemo metodu new PrismaClient()
+-vrijednost metode new PrismaClient() pohranjujemo u varijablu const db
+-eksportujemo varijablu const db
