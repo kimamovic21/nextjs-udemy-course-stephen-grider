@@ -66,3 +66,10 @@ Section 01 - Get Started Here !
 13. Adding Some Styling
 -u folderima performance, reliability i scale, u page.tsx fajlove dodajemo slike i komponentu Hero
 -u komponentu header.tsx dodajemo Tailwind CSS stil 
+
+14. Production Deployment with Vercel
+-u terminalu navigiramo u folder cd corp i ukucamo komandu npx vercel
+-pratimo uputstva iz videa
+-u .gitignore fajlu dodana opcija .vercel
+-otvorimo web stranicu https://vercel.com/ da vidimo nas projekt
+-otvorimo link: https://udemy-nextjs-course-sg-01-section-corp.vercel.app/
