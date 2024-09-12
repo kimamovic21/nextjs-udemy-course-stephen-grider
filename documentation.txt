@@ -1,5 +1,6 @@
 Udemy Next JS Course - Stephen Grider
 
+
 Section 01 - Get Started Here !
 
 01. How to Learn NextjJS Quickly
@@ -8,3 +9,6 @@ Section 01 - Get Started Here !
 -u terminalu instaliramo NextJS aplikaciju sa komandom npx create-next-app@latest 
 -udemo u folder sa komandom cd corp
 -u terminal ukucamo komandu npm run dev da pokrenemo Next JS aplikaciju
+
+03. File-Based Routing
+-u page.tsx fajlu izbrisemo sadrzaj u jsx-u i ostavimo samo jedan div element
