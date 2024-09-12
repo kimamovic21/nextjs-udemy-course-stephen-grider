@@ -22,3 +22,8 @@ Section 01 - Get Started Here !
 -u app/page.txs fajl importujemo komponentu Link iz pakete next/link
 -u jsx-u kreiramo div element za komponente Link
 -kreiramo tri komponente Link sa prop href
+
+06. Common UI in Next JS with Layouts
+-u globals.css fajlu izbrisemo CSS stil 
+-iz app/page.tsx fajla premjestamo div element sa komponetama Link u layout.tsx fajl
+-u layout.txs fajlu kreiramo jos jednu komponentu Link koja ce nas navigirati na home page
