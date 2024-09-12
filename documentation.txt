@@ -73,3 +73,6 @@ Section 01 - Get Started Here !
 -u .gitignore fajlu dodana opcija .vercel
 -otvorimo web stranicu https://vercel.com/ da vidimo nas projekt
 -otvorimo link: https://udemy-nextjs-course-sg-01-section-corp.vercel.app/
+
+15. Join Our Community!
+-link za pristup Diskord serveru
