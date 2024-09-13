@@ -129,3 +129,5 @@ Section 03: Streaming Content with React Server Components
 -u prop action proslijedujemo funkciju createSnippet
 
 23. A Deeper Dive into Server Actions
+
+24. Server Components vs Client Components
