@@ -127,3 +127,5 @@ Section 03: Streaming Content with React Server Components
 -u funkciju createSnippet() dodajemo funkciju redirect('/')
 -u jsx-u form elementu dodajemo prop action
 -u prop action proslijedujemo funkciju createSnippet
+
+23. A Deeper Dive into Server Actions
