@@ -144,3 +144,14 @@ Section 03: Streaming Content with React Server Components
 26. Adding Dynamic Paths
 -u folderu snippets kreiramo folder [id] i page.tsx fajl
 -u [id]/page.tsx fajlu, funkciji SnippetShowPage() dodajemo parametar props i tip any
+
+27. Fetching Particular Records
+-u [id]/page.tsx fajlu funkciji SnippetShowPage() dodajemo async
+-importujemo instancu db
+-kreiramo interface SnippetShowPageProps
+-u funkciji SnippetShowPage() parametru props dodajemo tip SnippetShowPageProps
+-dodajemo metodu await db.snippet.findFirst()
+-vrijednost metode await db.snippet.findFirst() pohranjujemo u varijablu const snippet
+-dodajemo uslov if (!snippet)
+-importujemo funkciju notFound iz paketa next/navigation
+-u uslov if (!snippet) dodajemo funkciju notFound()
