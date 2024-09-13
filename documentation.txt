@@ -131,3 +131,12 @@ Section 03: Streaming Content with React Server Components
 23. A Deeper Dive into Server Actions
 
 24. Server Components vs Client Components
+
+25. Fetching Data with Server Components
+-u app/page.tsx fajl importujemo instancu db
+-funkciji Home() dodajemo async
+-u funkciju Home() dodajemo metodu await db.snippet.findMany()
+-vrijednost metode await db.snippet.findMany() pohranjujemo varijablu const snippets
+-dodajemo metodu snippets.map()
+-vrijednost metode snippets.map() pohranjujemo u varijablu const renderedSnippets
+-u jsx-u prikazujemo varijablu renderedSnippets
