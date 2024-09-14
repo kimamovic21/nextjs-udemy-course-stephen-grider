@@ -201,3 +201,10 @@ Section 03: Streaming Content with React Server Components
 -u jsx-u kreiramo komponentu SnippetEditForm
 -komponenti SnippetEditForm dodajemo prop snippet
 -u prop snippet proslijedujemo vrijednost varijable snippet
+
+34. Adding the Monaco Editor
+-otvorimo link https://www.npmjs.com/package/@monaco-editor/react
+-u terminalu instaliramo paket Monaco Editor sa komandom npm i @monaco-editor/react
+-u komponentu SnippetEditForm.tsx importujemo komponentu Editor iz paketa monaco-editor/react
+-u jsx-u kreiramo komponentu Editor
+-komponenti Editor dodajemo prop height, theme, language, defaultValue i options
