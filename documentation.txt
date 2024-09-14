@@ -155,3 +155,7 @@ Section 03: Streaming Content with React Server Components
 -dodajemo uslov if (!snippet)
 -importujemo funkciju notFound iz paketa next/navigation
 -u uslov if (!snippet) dodajemo funkciju notFound()
+
+28. Custom Not Found Pages
+-u folderu [id] kreiramo not-found.tsx fajl
+-u not-found.tsx fajlu kreiramo funkciju SnippetNotFound()
