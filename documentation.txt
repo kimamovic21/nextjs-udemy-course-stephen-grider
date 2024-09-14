@@ -170,3 +170,6 @@ Section 03: Streaming Content with React Server Components
 -u metodi map() kreiramo komponentu Link
 -komponenti Link dodajemo prop href, key i className
 -u jsx-u kreiramo HTML elemente sa Tailwind CSS klasama
+
+31. Styling the Show Page
+-u snippets/[id]/page.tsx fajlu kreramo HTML elemente i dodajemo im Tailwind CSS klase 
