@@ -231,3 +231,5 @@ Section 04: Server Actions in Greate Detail
 -importujemo instancu db
 -kreiramo i eksportujemo asinronu funkciju editSnippet()
 -u komponentu SnippetEditForm.tsx importujemo funkciju editSnippet
+
+38. Options for Calling Server Actions from Client Components
