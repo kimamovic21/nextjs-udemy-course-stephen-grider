@@ -172,4 +172,14 @@ Section 03: Streaming Content with React Server Components
 -u jsx-u kreiramo HTML elemente sa Tailwind CSS klasama
 
 31. Styling the Show Page
--u snippets/[id]/page.tsx fajlu kreramo HTML elemente i dodajemo im Tailwind CSS klase 
+-u snippets/[id]/page.tsx fajlu kreiramo HTML elemente i dodajemo im Tailwind CSS klase 
+
+32. Linking to the Edit Page
+-u folderu [id] kreiramo folder edit i page.tsx fajl
+-u edit/page.tsx fajlu kreiramo funkciju SnippetEditPage()
+-kreiramo interface SnippetEditPageProps
+-funkciji SnippetEditPage() dodajemo parameter props
+-parametru props dodajemo tip SnippetEditPageProps
+-kreiramo varijablu const id
+-u snippets/[id]/page.tsx fajl importujemo i kreiramo komponentu Link
+-ujsx-u komponenti Link dodajemo prop href i dinamicku rutu po id-u biljeske
