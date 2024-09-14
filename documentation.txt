@@ -159,3 +159,8 @@ Section 03: Streaming Content with React Server Components
 28. Custom Not Found Pages
 -u folderu [id] kreiramo not-found.tsx fajl
 -u not-found.tsx fajlu kreiramo funkciju SnippetNotFound()
+
+29. Automatic Loading Spinners
+-u folderu [id] kreiramo loading.tsx fajl
+-u loading.tsx fajlu kreiramo funkciju SnippetLoadingPage()
+-otvorimo rutu http://localhost:3000/snippets/1 da vidimo poruku kako se ocitavaju podaci
