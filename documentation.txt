@@ -223,3 +223,11 @@ Section 03: Streaming Content with React Server Components
 Section 04: Server Actions in Greate Detail
 
 36. Server Actions in Nextjs Client Components
+
+37. Server Actions in a Separate File
+-u folderu src kreiramo folder actions
+-u folderu actions kreiramo index.ts fajl
+-u index.ts fajl dodajemo direktivu 'use server'
+-importujemo instancu db
+-kreiramo i eksportujemo asinronu funkciju editSnippet()
+-u komponentu SnippetEditForm.tsx importujemo funkciju editSnippet
