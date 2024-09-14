@@ -208,3 +208,13 @@ Section 03: Streaming Content with React Server Components
 -u komponentu SnippetEditForm.tsx importujemo komponentu Editor iz paketa monaco-editor/react
 -u jsx-u kreiramo komponentu Editor
 -komponenti Editor dodajemo prop height, theme, language, defaultValue i options
+
+35. Handling Editor Changes
+-u komponenti SnippetEditForm.tsx kreiramo funkciju handleEditorChange()
+-funkciji handleEditorChange() dodajemo parametar value
+-parametru value dodajemo tip string = ''
+-komponenti Editor dodajemo prop onChange
+-u prop onChange proslijedujemo funkciju handleEditorChange
+-importujemo funkciju React Hook useState
+-kreiramo state varijablu const code i set funkciju setCode
+-u funkciju handleEditorChange() dodajemo funkciju setCode(value)
