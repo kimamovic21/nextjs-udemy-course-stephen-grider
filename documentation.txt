@@ -183,3 +183,21 @@ Section 03: Streaming Content with React Server Components
 -kreiramo varijablu const id
 -u snippets/[id]/page.tsx fajl importujemo i kreiramo komponentu Link
 -ujsx-u komponenti Link dodajemo prop href i dinamicku rutu po id-u biljeske
+
+33. Showing a Client Component in a Server Component
+-u [edit]/page.tsx fajl importujemo funkciju notFound i instancu db
+-kreiramo varijable const id i const snippet
+-dodajemo uslov if (!snippet)
+-u uslov if (!snippet) dodajemo funkciju notFound()
+-u folderu src kreiramo folder components
+-u folderu components kreiramo komponentu SnippetEditForm.jsx
+-funkciji SnippetEditForm() dodajemo parametar destruktuirani prop snippet
+-kreiramo interface SnippetEditFormProps
+-dodajemo direktivu 'use client'
+-importujemo tip Snippet iz paketa prisma/client
+-parametru snippet dodajemo tip SnippetEditFormProps
+-u edit/page.jsx fajl importujemo komponentu SnippetEditForm.jsx
+-funkciji SnippetEditPage() dodajemo async
+-u jsx-u kreiramo komponentu SnippetEditForm
+-komponenti SnippetEditForm dodajemo prop snippet
+-u prop snippet proslijedujemo vrijednost varijable snippet
