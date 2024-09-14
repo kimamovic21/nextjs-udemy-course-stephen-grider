@@ -164,3 +164,9 @@ Section 03: Streaming Content with React Server Components
 -u folderu [id] kreiramo loading.tsx fajl
 -u loading.tsx fajlu kreiramo funkciju SnippetLoadingPage()
 -otvorimo rutu http://localhost:3000/snippets/1 da vidimo poruku kako se ocitavaju podaci
+
+30. A Few Quick Tasks
+-u app/page.tsx fajl importujemo komponentu Link iz paketa next/link
+-u metodi map() kreiramo komponentu Link
+-komponenti Link dodajemo prop href, key i className
+-u jsx-u kreiramo HTML elemente sa Tailwind CSS klasama
