@@ -218,3 +218,8 @@ Section 03: Streaming Content with React Server Components
 -importujemo funkciju React Hook useState
 -kreiramo state varijablu const code i set funkciju setCode
 -u funkciju handleEditorChange() dodajemo funkciju setCode(value)
+
+
+Section 04: Server Actions in Greate Detail
+
+36. Server Actions in Nextjs Client Components
