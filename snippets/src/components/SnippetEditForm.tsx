@@ -16,6 +16,8 @@ export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
         // console.log('value: ', value)
         setCode(value)
     }
+
+    const editSnippetAction = editSnippet.bind(null, snippet.id, code)
   
     return (
     <div>
@@ -29,6 +31,11 @@ export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
             }}
             onChange={handleEditorChange}
         />
+        <form action={editSnippetAction}>
+            <button type='submit' className='p-2 border rounded'>
+                Save
+            </button>
+        </form>
     </div>
   )
 }

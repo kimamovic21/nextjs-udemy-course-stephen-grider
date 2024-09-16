@@ -233,3 +233,16 @@ Section 04: Server Actions in Greate Detail
 -u komponentu SnippetEditForm.tsx importujemo funkciju editSnippet
 
 38. Options for Calling Server Actions from Client Components
+
+39. Calling a Server Action from a Client Component
+-u actions/index.ts fajlu funkciji editSnippet() dodajemo parametre id i code
+-parametrima id i code dodajemo tip number i string
+-u komponenti SnippetEditForm.tsx dodajemo metodu editSnippet.bind()
+-vrijednost metode editSnippet.bind() pohranjujemo u varijablu const editSnippetAction 
+-u jsx-u kreiramo form element
+-form elementu dodajemo prop action
+-u prop action proslijedujemo funkciju editSnippetAction
+-u form elementu kreiramo button element
+-button elementu dodajemo prop type i className
+-u actions/index.ts fajlu, u funkciju editSnippet() dodajemo metodu await db.snippet.update()
+-importujemo i kreiramo funkciju redirect()
