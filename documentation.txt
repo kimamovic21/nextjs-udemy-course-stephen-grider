@@ -246,3 +246,13 @@ Section 04: Server Actions in Greate Detail
 -button elementu dodajemo prop type i className
 -u actions/index.ts fajlu, u funkciju editSnippet() dodajemo metodu await db.snippet.update()
 -importujemo i kreiramo funkciju redirect()
+
+40. Deleting a Record with a Server Action
+-u actions/index.ts fajlu kreiramo i eksportujemo asinronu funkciju deleteSnippet()
+-u funkciju deleteSnippet() dodajemo metodu await db.snippet.delete()
+-u snippets/[id]/page.tsx fajl importujemo funkciju deleteSnippet
+-dodajemo metodu deleteSnippet.bind()
+-vrijednost metode deleteSnippet.bind() pohranjujemo u varijablu const deleteSnippetAction
+-u jsx-u kreiramo form element
+-form elementu dodajemo prop action
+-u prop action proslijedujemo vrijednost funkcije deleteSnippetAction
