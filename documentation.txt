@@ -296,3 +296,5 @@ Section 06: Understanding Next's Caching System
 45. Super Unexpected Behaviour
 -u terminalu ukucamo komandu npm run build
 -u terminalu ukucamo komandu npm run start
+
+46. The Full Route Cache System
