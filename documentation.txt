@@ -298,3 +298,6 @@ Section 06: Understanding Next's Caching System
 -u terminalu ukucamo komandu npm run start
 
 46. The Full Route Cache System
+
+47. What Makes a Static or Dynamic Route in Next.js
+-u app/page.tsx fajlu kreiramo i eksportujemo varijablu const dynamic
