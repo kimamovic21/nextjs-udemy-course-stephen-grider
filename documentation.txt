@@ -278,3 +278,14 @@ Section 05: Server Forms with the UseFormState Hook
 -dodajemo uslov if za varijablu code
 -u if uslove dodajemo return i objekt message
 -kreiramo novu zabiljesku 
+
+44. Gotchas Around Error Handling in Nextjs
+-u folderu new kreiramo error.tsx fajl
+-u error.tsx fajl dodajemo direktivu 'use client'
+-kreiramo funkciju ErrorPage()
+-kreiramo interface ErrorPageProps
+-funkciji ErrorPage() dodajemo parametar destruktuirani prop error
+-parametru error dodajemo tip ErrorPageProps
+-u jsx-u kreiramo div element u koji dodajemo error poruku
+-u actions/index.ts fajl, u funkciju createSnippet() dodajemo blokove koda try - catch
+-u blok koda catch dodajemo uslove if (err instanceof Error) - else
