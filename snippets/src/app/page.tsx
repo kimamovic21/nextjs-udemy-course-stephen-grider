@@ -19,7 +19,7 @@ export default async function Home() {
   })
 
   return (
-    <div>
+    <div className='mt-10'>
       <div className='flex m-2 justify-between items-center'>
         <h1 className='text-xl font-bold'>Snippets</h1>
         <Link 

@@ -311,3 +311,13 @@ Section 06: Understanding Next's Caching System
 -u terminalu ukucamo komandu npm run start
 
 50. Enabling Caching with GenerateStaticParams
+
+51. Caching Dynamic Routes
+-u snippets/[id]/page.tsx fajlu kreiramo i eksportujemo funkciju generateStaticParams()
+-u funkciju generateStaticParams() dodajemo metodu await db.snippet.findMany()
+-vrijednost metode await db.snippet.findMany() pohranjujemo u varijablu const snippets
+-dodajemo metodu snippets.map()
+-u terminalu ukucamo komandu npm run build
+-u actions/index.ts fajlu, u funkciju editSnippet() dodajemo funkciju revalidatePath() za id
+-u funkciju deleteSnippet() dodajemo jos jednu funkciju revalidatePath() za id
+-u terminalu ukucamo komande npm run build i npm run start
