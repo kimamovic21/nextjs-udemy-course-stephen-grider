@@ -272,3 +272,9 @@ Section 05: Server Forms with the UseFormState Hook
 -vrijednost funkcije useFormState() pohranjujemo u varijable const [formState, action]
 -u prop action proslijedujemo funkciju action
 -u jsx-u kreiramo div element u koji dodajemo varijablu formState.message
+
+43. Adding the Form Validation
+-u actions/index.ts fajlu dodajemo uslov if u kojem provjerama da li je varijabla title string i da li sadrzi manje od 3 slova
+-dodajemo uslov if za varijablu code
+-u if uslove dodajemo return i objekt message
+-kreiramo novu zabiljesku 
