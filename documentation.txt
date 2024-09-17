@@ -261,3 +261,14 @@ Section 04: Server Actions in Greate Detail
 Section 05: Server Forms with the UseFormState Hook
 
 41. Understanding the UseFormState Hook
+
+42. UseFormState State in Action
+-funkciju createSnippet() premjestamo iz new/page.tsx fajla u actions/index.ts fajl
+-u index.ts fajlu funkciji createSnippet() dodajemo parametar formState
+-u new/page.tsx fajl importujemo i kreiramo funkciju useFormState iz paketa react-dom
+-importujemo funkciju createSnippet
+-funkciji useFormState() dodajemo argumente funkciju createSnippet i objekt sa porukom
+-dodajemo direktivu 'use client'
+-vrijednost funkcije useFormState() pohranjujemo u varijable const [formState, action]
+-u prop action proslijedujemo funkciju action
+-u jsx-u kreiramo div element u koji dodajemo varijablu formState.message
