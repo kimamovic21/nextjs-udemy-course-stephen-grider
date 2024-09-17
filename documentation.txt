@@ -321,3 +321,8 @@ Section 06: Understanding Next's Caching System
 -u actions/index.ts fajlu, u funkciju editSnippet() dodajemo funkciju revalidatePath() za id
 -u funkciju deleteSnippet() dodajemo jos jednu funkciju revalidatePath() za id
 -u terminalu ukucamo komande npm run build i npm run start
+
+
+Section 07: Authentication with Next-Auth
+
+52. Next 14.2 Issues and Required Version
