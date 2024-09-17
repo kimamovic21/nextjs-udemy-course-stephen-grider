@@ -289,3 +289,10 @@ Section 05: Server Forms with the UseFormState Hook
 -u jsx-u kreiramo div element u koji dodajemo error poruku
 -u actions/index.ts fajl, u funkciju createSnippet() dodajemo blokove koda try - catch
 -u blok koda catch dodajemo uslove if (err instanceof Error) - else
+
+
+Section 06: Understanding Next's Caching System
+
+45. Super Unexpected Behaviour
+-u terminalu ukucamo komandu npm run build
+-u terminalu ukucamo komandu npm run start
