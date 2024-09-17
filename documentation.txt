@@ -309,3 +309,5 @@ Section 06: Understanding Next's Caching System
 -u funkcije deleteSnippet() i createSnippet() dodajemo funkciju revalidatePath()
 -u terminalu ukucamo komandu npm run build
 -u terminalu ukucamo komandu npm run start
+
+50. Enabling Caching with GenerateStaticParams
