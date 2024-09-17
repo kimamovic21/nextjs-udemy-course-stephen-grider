@@ -301,3 +301,5 @@ Section 06: Understanding Next's Caching System
 
 47. What Makes a Static or Dynamic Route in Next.js
 -u app/page.tsx fajlu kreiramo i eksportujemo varijablu const dynamic
+
+48. When to Use Each Cache Control
