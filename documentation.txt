@@ -303,3 +303,9 @@ Section 06: Understanding Next's Caching System
 -u app/page.tsx fajlu kreiramo i eksportujemo varijablu const dynamic
 
 48. When to Use Each Cache Control
+
+49. Help, My Page is Showing Old Data!
+-u actions/index.ts fajl importujemo funkciju revalidatePath iz paketa next/cache
+-u funkcije deleteSnippet() i createSnippet() dodajemo funkciju revalidatePath()
+-u terminalu ukucamo komandu npm run build
+-u terminalu ukucamo komandu npm run start
