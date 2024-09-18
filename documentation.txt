@@ -331,3 +331,26 @@ Section 07: Authentication with Next-Auth
 -u terminalu ukucamo komandu npx create-next-app
 
 54. Critical Libraries in Our Project
+
+55. NextUI Installation and Setup
+-u terminalu ukucamo komandu npm i --save-exact @nextui-org/react@2.2.9 framer-motion
+-u tailwind.config.js fajl importujemo funkciju nextui iz paketa nextui-org/react
+-dodajemo opciju darkMode
+-u opciju za plugins dodajemo funkciju nextui()
+-u folderu app kreiramo providers.tsx fajl
+-u providers.tsx fajl dodajemo direktivu 'use client'
+-importujemo funkciju NextUIProvider iz paketa nextui-org/react
+-kreiramo interface ProvidersProps
+-kreiramo i eksportujemo funkciju Providers()
+-funkciji Providers() dodajemo parametar destruktuirani prop children
+-parametru children dodajemo tip ProvidersProps
+-u jsx-u kreiramo komponentu NextUIProvider sa otvorenim i zatvorenim tagom
+-u komponentu NextUIProvider dodajemo prop children
+-u layout.tsx fajl importujemo komponentu Providers
+-u jsx-u kreiramo komponentu Providers sa otvorenim i zatvorenim tagom
+-u komponentu Providers dodajemo prop children
+-u app/page.tsx fajl importujemo komponentu Button iz paketa nextui-org/react
+-u jsx-u izbrisemo postojece HTML elemente i kreiramo novi div element
+-u div elementu kreiramo komponentu Button
+-u globals.css fajlu izbrisemo postojeci CSS stil
+-u terminalu pokrenemo projekt sa komandom npm run dev
