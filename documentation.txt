@@ -357,3 +357,14 @@ Section 07: Authentication with Next-Auth
 
 56. Prisma Schema File
 -preuzet schema.prisma fajl
+
+57. Database Setup
+-u terminalu instaliramo paket prisma sa komandom npm i prisma
+-u terminalu ukucamo komandu npx prisma init --datasource-provider sqlite
+-u schema.prisma fajl kreiramo potrebne modele za projekt
+-u terminalu ukucamo komandu npx prisma migrate dev
+-kreiramo folder db i index.ts fajl
+-u index.ts fajl importujemo funkciju PrismaClient iz paketa prisma/client
+-dodajemo metodu new PrismaClient()
+-vrijednost metode new PrismaClient() pohranjujemo u varijablu const db
+-eksportujemo varijablu const db
