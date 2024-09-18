@@ -326,3 +326,6 @@ Section 06: Understanding Next's Caching System
 Section 07: Authentication with Next-Auth
 
 52. Next 14.2 Issues and Required Version
+
+53. Project Overview
+-u terminalu ukucamo komandu npx create-next-app
