@@ -354,3 +354,6 @@ Section 07: Authentication with Next-Auth
 -u div elementu kreiramo komponentu Button
 -u globals.css fajlu izbrisemo postojeci CSS stil
 -u terminalu pokrenemo projekt sa komandom npm run dev
+
+56. Prisma Schema File
+-preuzet schema.prisma fajl
