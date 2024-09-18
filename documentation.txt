@@ -329,3 +329,5 @@ Section 07: Authentication with Next-Auth
 
 53. Project Overview
 -u terminalu ukucamo komandu npx create-next-app
+
+54. Critical Libraries in Our Project
