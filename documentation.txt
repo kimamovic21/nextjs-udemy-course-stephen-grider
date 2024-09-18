@@ -393,3 +393,8 @@ Section 07: Authentication with Next-Auth
 -u konfiguracioni objekt dodajemo opcije adapter, providers i callbacks
 -vrijednost funkcije NextAuth() pohranjujemo u destruktuirane varijable const { handlers, auth, signOut, signIn }
 -iz varijable handlers destruktuiramo metode GET i POST
+
+60. The Theory Behind OAuth
+-u folderu app kreiramo foldere api, auth, [...nextauth] i route.ts fajl
+-u route.ts fajlu eksportujemo funkcije GET i POST
+-u .eslintrc.json fajl dodajemo objekt rules
