@@ -380,3 +380,16 @@ Section 07: Authentication with Next-Auth
 -otvorimo link https://auth-secret-gen.vercel.app/ da generisemo kod za AUTH_SECRET
 -u terminalu instaliramo Auth pakete
 -u terminalu ukucamo komandu npm i --save-exact @auth/core@0.18.1 @auth/prisma-adapter@1.0.6 next-auth@5.0.0-beta.3
+
+59. Next-Auth Setup
+-u folderu src kreiramo auth.ts fajl
+-u auth.ts fajl importujemo instance NextAuth i Github
+-importujemo funkciju PrismaAdapter
+-importujemo instancu db
+-kreiramo varijable cosnt GITHUB_CLIENT_ID i const GITHUB_CLIENT_SECRET
+-dodajemo uslov if (!GITHUB_CLIENT_ID || GITHUB_CLIENT_SECRET)
+-kreiramo funkciju NextAuth()
+-u funkciji NextAuth() kreiramo konfiguracioni objekt
+-u konfiguracioni objekt dodajemo opcije adapter, providers i callbacks
+-vrijednost funkcije NextAuth() pohranjujemo u destruktuirane varijable const { handlers, auth, signOut, signIn }
+-iz varijable handlers destruktuiramo metode GET i POST
