@@ -404,3 +404,26 @@ Section 07: Authentication with Next-Auth
 -u index.ts fajl dodajemo direktivu 'use server'
 -dodajemo import * as auth from '@/auth'
 -kreiramo i eksportujemo asinhrone funkcije signIn() i signOut()
+
+62. Sign In, Sign Out and Checking Auth Status
+-u app/page.tsx fajl dodajemo import * as actions from '@/actions'
+-u jsx-u, u div elementu kreiramo form element
+-form elementu dodajemo prop action
+-u prop action dodajemo action.signIn
+-Button komponenti dodajemo prop type
+-kliknemo Sign in dugme da se prijavi pomocu Github-a
+-kreiramo jos jednu form element za komponentu Button Sign Out
+-u app/page.tsx fajl importujemo i kreiramo funkciju auth()
+-funkciji Home() dodajemo async
+-vrijednost funkcije await auth() pohranjujemo u varijablu const session
+-u jsx-u dodajemo ternarni uslov session?.user 
+-u providers.tsx fajl importujemo komponentu SessionProvider iz paketa next-auth/react
+-u jsx-u kreiramo komponentu SessionProvider sa otvorenim i zatvorenim tagom
+-u src folderu kreiramo folder components
+-u folderu components kreiramo komponentu Profile.tsx
+-u komponentu Profile.tsx dodajemo direktivu 'use client'
+-importujemo i kreiramo funkciju useSession() iz paketa next-auth/react
+-vrijednost funkcije useSession() pohranjujemo u varijablu const session
+-dodajemo uslov if (session.data?.user)
+-u jsx-u kreiramo div element
+-u app/page.tsx fajl importujemo komponentu Profile.tsx
