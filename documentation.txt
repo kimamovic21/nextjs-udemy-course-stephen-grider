@@ -115,7 +115,7 @@ Section 02: Changing Data with Mutations
 Section 03: Streaming Content with React Server Components
 
 22. Introduction Server Actions in Next.js
--u snippets/new page.tsx fajlu kreiramo asinronu funkciju createSnippet()
+-u snippets/new page.tsx fajlu kreiramo asinhronu funkciju createSnippet()
 -u funkciju createSnippet() dodajemo direktivu 'use server'
 -funkciji createSnippet() dodajemo parametar formData
 -parametru formData dodajemo tip FormData
@@ -229,7 +229,7 @@ Section 04: Server Actions in Greate Detail
 -u folderu actions kreiramo index.ts fajl
 -u index.ts fajl dodajemo direktivu 'use server'
 -importujemo instancu db
--kreiramo i eksportujemo asinronu funkciju editSnippet()
+-kreiramo i eksportujemo asinhronu funkciju editSnippet()
 -u komponentu SnippetEditForm.tsx importujemo funkciju editSnippet
 
 38. Options for Calling Server Actions from Client Components
@@ -248,7 +248,7 @@ Section 04: Server Actions in Greate Detail
 -importujemo i kreiramo funkciju redirect()
 
 40. Deleting a Record with a Server Action
--u actions/index.ts fajlu kreiramo i eksportujemo asinronu funkciju deleteSnippet()
+-u actions/index.ts fajlu kreiramo i eksportujemo asinhronu funkciju deleteSnippet()
 -u funkciju deleteSnippet() dodajemo metodu await db.snippet.delete()
 -u snippets/[id]/page.tsx fajl importujemo funkciju deleteSnippet
 -dodajemo metodu deleteSnippet.bind()
@@ -398,3 +398,9 @@ Section 07: Authentication with Next-Auth
 -u folderu app kreiramo foldere api, auth, [...nextauth] i route.ts fajl
 -u route.ts fajlu eksportujemo funkcije GET i POST
 -u .eslintrc.json fajl dodajemo objekt rules
+
+61. Wrapping Auth in Server Actions
+-u folderu src kreiramo folder actions i index.ts fajl
+-u index.ts fajl dodajemo direktivu 'use server'
+-dodajemo import * as auth from '@/auth'
+-kreiramo i eksportujemo asinhrone funkcije signIn() i signOut()
