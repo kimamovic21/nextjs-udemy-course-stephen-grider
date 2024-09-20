@@ -431,3 +431,5 @@ Section 07: Authentication with Next-Auth
 63. Upfront Design Process
 -otvorimo web stranicu https://miro.com/
 -planiranje projekta
+
+64. Why Path Helpers ?
