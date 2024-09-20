@@ -427,3 +427,7 @@ Section 07: Authentication with Next-Auth
 -dodajemo uslov if (session.data?.user)
 -u jsx-u kreiramo div element
 -u app/page.tsx fajl importujemo komponentu Profile.tsx
+
+63. Upfront Design Process
+-otvorimo web stranicu https://miro.com/
+-planiranje projekta
