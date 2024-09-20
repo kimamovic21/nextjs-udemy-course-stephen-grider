@@ -441,3 +441,9 @@ Section 07: Authentication with Next-Auth
 -funkcijama topicShow(), postCreate() i postShow() dodajemo parametar topicSlug: string
 -funkciji postShow() dodajemo jos i parametar postId: string
 -u return izjave dodajemo putanju ruta
+
+66. Creating the Routing 
+-u folderu src kreiramo foldere topics, [slug] i posts jedan unutar drugog
+-u folderu [slug] kreiramo page.tsx fajl
+-u folderu posts kreiramo foldere [postId] i new
+-u folderima [postId] i new kreiramo page.tsx fajlove
