@@ -447,3 +447,13 @@ Section 07: Authentication with Next-Auth
 -u folderu [slug] kreiramo page.tsx fajl
 -u folderu posts kreiramo foldere [postId] i new
 -u folderima [postId] i new kreiramo page.tsx fajlove
+
+67. Stubbing Out Server Actions
+-u folderu actions kreiramo fajlove create-comment.ts, create-post.ts i create-topic.ts
+-u createTopic.ts fajlu kreiramo i eksportujemo asinhronu funkciju createTopic()
+-u createPost.ts fajlu kreiramo i eksportujemo asinhronu funkciju createPost()
+-u createComment.ts fajlu kreiramo i eksportujemo asinhronu funkciju createComment()
+-kreiramo fajlove sign-in.ts i sign-out.ts
+-u sign-in.ts fajl premjestamo funkciju signIn iz index.ts fajla
+-u sign-out.ts fajl premjestamo funkciju signOut iz index.ts fajla
+-u index.ts fajlu eksportujemo sve funkcije iz foldera actions
