@@ -433,3 +433,11 @@ Section 07: Authentication with Next-Auth
 -planiranje projekta
 
 64. Why Path Helpers ?
+
+65. Path Helper Implementation
+-u folderu src kreiramo paths.ts fajl
+-u paths.ts fajlu kreiramo objekt varijablu const paths
+-u objektu kreiramo funkcije home(), topicShow(), postCreate() i postShow()
+-funkcijama topicShow(), postCreate() i postShow() dodajemo parametar topicSlug: string
+-funkciji postShow() dodajemo jos i parametar postId: string
+-u return izjave dodajemo putanju ruta
