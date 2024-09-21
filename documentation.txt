@@ -457,3 +457,6 @@ Section 07: Authentication with Next-Auth
 -u sign-in.ts fajl premjestamo funkciju signIn iz index.ts fajla
 -u sign-out.ts fajl premjestamo funkciju signOut iz index.ts fajla
 -u index.ts fajlu eksportujemo sve funkcije iz foldera actions
+
+68. Planning Revalidating Strategies
+-u folderu actions, u ts fajlove dodajemo komentar sta se treba uraditi
