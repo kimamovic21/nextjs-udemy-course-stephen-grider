@@ -460,3 +460,26 @@ Section 07: Authentication with Next-Auth
 
 68. Planning Revalidating Strategies
 -u folderu actions, u ts fajlove dodajemo komentar sta se treba uraditi
+
+69. Building the Header
+-u folderu components kreiramo komponentu Header.tsx
+-importujemo komponentu Link za paketa next/link
+-importujemo komponente iz paketa nextui-org/react
+-importujemo i kreiramo funkciju auth iz auth.ts fajla
+-funkciji Header() dodajemo async
+-vrijednost funkcije await auth() pohranjujemo u varijablu const session
+-u jsx-u kreiramo komponentu Navbar sa otvorenim i zatvorenim tagom
+-u komponenti Navbar kreiramo komponentu NavbarBrand sa otvorenim i zatvorenim tagom
+-u komande NavbarBrand kreiramo komponentu Link
+-komponenti Link dodajemo prop href i className
+-kreiramo dvije komponente NavbarContent
+-u komponenti NavbarContent kreiramo komponentu NavbarItem sa otvorenim i zatvorenim tagom
+-komponenti NavbarContent dodajemo prop justify
+-u komponenti NavbarItem kreiramo komponentu Input
+-drugoj komponenti NavbarContent dodajemo prop justify
+-u komponenti NavbarContent kreiramo komponentu NavbarItem
+-u komponentu NavbarItem dodajemo ternarni uslov za varijablu session?.user 
+-u layout.tsx fajl importujemo komponentu Header.jsx
+-u jsx-u kreiramo div element sa Tailwind CSS klasama
+-u div element dodajemo komponentu Providers
+-u komponentu Providers dodajemo komponentu Header
