@@ -509,3 +509,6 @@ Section 07: Authentication with Next-Auth
 -u prop action proslijedujemo vrijednost actions.signOut
 -u form elementu kreiramo komponentu Button Sign Out
 -komponenti Button dodajemo prop type
+
+72. More Caching Issues
+-u app/page.tsx fajlu izbrisemo kod u jsx-u
