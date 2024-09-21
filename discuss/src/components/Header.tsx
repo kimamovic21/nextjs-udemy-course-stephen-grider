@@ -1,6 +1,18 @@
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Input, Button, Avatar } from "@nextui-org/react"
-import { auth } from "@/auth"
-import Link from "next/link"
+import { 
+    Navbar, 
+    NavbarBrand, 
+    NavbarContent, 
+    NavbarItem, 
+    Input,
+    Button, 
+    Avatar, 
+    Popover, 
+    PopoverTrigger, 
+    PopoverContent 
+} from '@nextui-org/react'
+import { auth } from '@/auth'
+import Link from 'next/link'
+import * as actions from '@/actions'
 
 export default async function Header() {
   const session = await auth()
@@ -8,21 +20,43 @@ export default async function Header() {
   let authContent: React.ReactNode
 
   if (session?.user) {
-    authContent = <Avatar src={session.user.image || ''} />
-  } else {
-    authContent = <>
-        <NavbarItem>
-            <Button type='submit' color='secondary' variant='bordered'>
-                Sign In
-            </Button>
-        </NavbarItem>
+    authContent = (
+        <Popover placement='left'>
+            <PopoverTrigger>
+                <Avatar src={session.user.image || ''} />
+            </PopoverTrigger>
 
-        <NavbarItem>
-            <Button type='submit' color='primary' variant='flat'>
-                Sign Up
-            </Button>
-        </NavbarItem>
-    </>
+            <PopoverContent>
+                <div className='p-4'>
+                    <form action={actions.signOut}>
+                        <Button type='submit'>
+                            Sign Out
+                        </Button>
+                    </form>
+                </div>
+            </PopoverContent>
+        </Popover>
+    )
+  } else {
+    authContent = ( 
+        <>
+            <NavbarItem>
+                <form action={actions.signIn}>
+                    <Button type='submit' color='secondary' variant='bordered'>
+                        Sign In
+                    </Button>
+                </form>
+            </NavbarItem>
+
+            <NavbarItem>
+                <form action={actions.signIn}>
+                    <Button type='submit' color='primary' variant='flat'>
+                        Sign Up
+                    </Button>
+                </form>
+            </NavbarItem>
+        </>
+    )
   }
 
   return (

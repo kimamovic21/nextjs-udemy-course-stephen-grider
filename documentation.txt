@@ -492,3 +492,20 @@ Section 07: Authentication with Next-Auth
 -u uslov else dodajemo dvije komponente NavbarItem
 -u komponentama NavbarItem kreiramo komponente Button sa prop type, color i variant
 -u jsx dodajemo varijablu authContent
+
+71. Enabling Sign Out
+-u komponentu Header.tsx dodajemo import * as actions
+-u komponentama NavbarItem kreiramo form elemente
+-form elementima dodajemo prop action
+-u form elementima za komponente Sign In i Sign Out dodajemo actions.signIn
+-u komponentu Header.tsx importujemo komponente Popover, PopoverTrigger, PopoverContent
+-u uslovu if, u varijabli authContent kreiramo komponente Popover sa otvorenim i zatvorenim tagom
+-komponenti Popover dodajemo prop placement
+-u komponenti Popover kreiramo komponente PopoverTrigger i PopoverContent sa otvorenim i zatvorenim tagom
+-u komponentu PopoverTrigger dodajemo komponentu Avatar
+-u komponenti PopoverContent kreiramo div element 
+-u div elementu kreiramo form element
+-form elementu dodajemo prop action
+-u prop action proslijedujemo vrijednost actions.signOut
+-u form elementu kreiramo komponentu Button Sign Out
+-komponenti Button dodajemo prop type
