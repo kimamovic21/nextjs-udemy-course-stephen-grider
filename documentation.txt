@@ -483,3 +483,12 @@ Section 07: Authentication with Next-Auth
 -u jsx-u kreiramo div element sa Tailwind CSS klasama
 -u div element dodajemo komponentu Providers
 -u komponentu Providers dodajemo komponentu Header
+
+70. Displaying the Sign In and Sign Out Buttons
+-u komponenti Header.jsx kreiramo varijablu let authContent
+-varijabli authContent dodajemo tip React.ReactNode
+-dodajemo uslov if (session?.user) else
+-u uslov if (session?.user) dodajemo vrijednost komponente Avatar varijabli authContent
+-u uslov else dodajemo dvije komponente NavbarItem
+-u komponentama NavbarItem kreiramo komponente Button sa prop type, color i variant
+-u jsx dodajemo varijablu authContent
