@@ -512,3 +512,5 @@ Section 07: Authentication with Next-Auth
 
 72. More Caching Issues
 -u app/page.tsx fajlu izbrisemo kod u jsx-u
+
+73. Signout Issues with Next 14.2
