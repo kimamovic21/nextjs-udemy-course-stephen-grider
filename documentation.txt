@@ -596,3 +596,12 @@ Section 07: Authentication with Next-Auth
 
 82. Displaying Validation Errors
 -u komponenti TopicCreateForm.tsx, komponentama Input i Textarea dodajemo prop isInvalid i errorMessage
+
+83. Handling General Form Errors
+-u create-topic.ts fajl importujemo i kreiramo funkciju auth
+-u interface CreateTopicFormState dodajemo opciju _form?: string[]
+-vrijednost metode await auth() pohranjujemo u varijablu const session
+-dodajemo uslov if (!session || !session.user)
+-u uslov if dodajemo objekt errors
+-u objekt errors dodajemo varijablu _form
+-u komponenti TopicCreateForm.tsx, u jsx-u dodajemo ternarni uslov za varijablu formState.errors._form
