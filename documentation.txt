@@ -575,3 +575,12 @@ Section 07: Authentication with Next-Auth
 -u console.error() dodajemo metode flatten() i fieldErrors
 
 79. Reminder on the UseFormState Hook
+
+80. Fixing UseFormState Type Errors
+-u komponentu TopicCreateForm.tsx importujemo i kreiramo funkciju useFormState iz paketa react-dom
+-dodajemo direktivu 'use client'
+-vrijednost funkcije useFormState() pohranjujemo u varijable cosnt [formState, action]
+-u funkciju useFormState() dodajemo argumente actions.createTopic i 5
+-u form elementu, u prop action proslijedujemo funkciju action
+-u create-topic.ts fajlu funkciji createTopic() dodajemo parametar formState i tip number
+-nakon uslova if dodajemo return i broj
