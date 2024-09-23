@@ -514,3 +514,18 @@ Section 07: Authentication with Next-Auth
 -u app/page.tsx fajlu izbrisemo kod u jsx-u
 
 73. Signout Issues with Next 14.2
+
+74. Static Caching While Using Auth
+-u folderu components kreiramo komponentu HeaderAuth.tsx
+-u komponentu HeaderAuth.tsx dodajemo direktivu 'use client'
+-importujemo komponente iz paketa nextui-org/react
+-importujemo i kreiramo funkciju useSession iz paketa next-auth/react
+-importujemo sve funkcije kao actions iz fajla actions
+-vrijednost funkcije useSession() pohranjujemo u varijablu const session
+-iz komponente Header.tsx premjestamo dio koda u komponentu HeaderAuth.tsx
+-u komponenti HeaderAuth.tsx u return izjavu dodajemo varijablu authContent
+-u komponentu Header.tsx importujemo komponentu HeaderAuth.tsx
+-u jsx-u, u komponentu NavbarContent dodajemo komponentu HeaderAuth
+-u komponentu HeaderAuth.tsx dodajemo uslov if (session.status === 'loading')
+-dodajemo uslov else if (session.data?.user)
+-u terminalu ukucamo komandu npm run build
