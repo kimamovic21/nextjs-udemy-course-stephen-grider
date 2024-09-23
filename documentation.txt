@@ -593,3 +593,6 @@ Section 07: Authentication with Next-Auth
 -u return izjavi dodajemo objekt errors
 -u uslov if dodajemo return izjavu objekt errors
 -u komponenti TopicCreateForm.tsx, kao drugi argument funkcije useFormState() dodajemo objekt erros
+
+82. Displaying Validation Errors
+-u komponenti TopicCreateForm.tsx, komponentama Input i Textarea dodajemo prop isInvalid i errorMessage
