@@ -529,3 +529,12 @@ Section 07: Authentication with Next-Auth
 -u komponentu HeaderAuth.tsx dodajemo uslov if (session.status === 'loading')
 -dodajemo uslov else if (session.data?.user)
 -u terminalu ukucamo komandu npm run build
+
+75. Creating Topics
+-u folderu components kreiramo folder topics
+-u folderu topics kreiramo komponentu TopicCreateForm.tsx 
+-u app/page.tsx fajl importujemo komponentu TopicCreateForm.tsx
+-u app/page.tsx fajl importujemo komponentu TopicCreateForm.tsx
+-u jsx-u kreiramo div i h1 elemente
+-u div element dodajemo komponentu TopicCreateForm
+-div elementima dodajemo Tailwind CSS grid klase
