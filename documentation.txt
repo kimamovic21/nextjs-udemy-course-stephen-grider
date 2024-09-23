@@ -551,3 +551,8 @@ Section 07: Authentication with Next-Auth
 -importujemo sve funkcije kao actions iz actions.ts fajla
 -form elementu dodajemo prop action
 -u prop action proslijedujemo vrijednost actions.createTopic
+
+77. Receiving Form Data
+-u komponenti TopicCreateForm.tsx komponentama Input i Textarea dodajemo prop name
+-u create-topic.ts fajlu, funkciji createTopic() dodajemo parametar formData i tip FormData
+-kreiramo varijabla const name i const description
