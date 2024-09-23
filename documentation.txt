@@ -584,3 +584,12 @@ Section 07: Authentication with Next-Auth
 -u form elementu, u prop action proslijedujemo funkciju action
 -u create-topic.ts fajlu funkciji createTopic() dodajemo parametar formState i tip number
 -nakon uslova if dodajemo return i broj
+
+81. Here's Our FormState Type
+-u createTopic.ts fajlu kreiramo interface CreateTopicFormState
+-u interfejsu CreateTopicFormState kreiramo objekt error
+-u funkciji createTopic() parametru formState dodajemo tip CreateTopicFormState
+-funkciji createTopic() dodajemo tip Promise<CreateTopicFormState>
+-u return izjavi dodajemo objekt errors
+-u uslov if dodajemo return izjavu objekt errors
+-u komponenti TopicCreateForm.tsx, kao drugi argument funkcije useFormState() dodajemo objekt erros
