@@ -538,3 +538,16 @@ Section 07: Authentication with Next-Auth
 -u jsx-u kreiramo div i h1 elemente
 -u div element dodajemo komponentu TopicCreateForm
 -div elementima dodajemo Tailwind CSS grid klase
+
+76. Creating a Popover Form
+-u komponentu TopicCreateForm.tsx importujemo komponente iz paketa nextui-org/react
+-u jsx-u kreiramo roditelj element Popover sa otvorenim i zatvorenim tagom
+-u komponenti Popover kreiramo komponente PopoverTrigger i PopoverContent sa otvorenim i zatvorenim tagom
+-u komponenti PopoverTrigger kreiramo komponentu Button
+-u komponenti PopoverContent kreiramo form, div i h3 elemente
+-div elementu dodajemo Tailwind CSS flex klase
+-u div elementu kreiramo komponente Input, Textarea i Button
+-komponentama Input i Textarea dodajemo prop label, labelPlacement i placeholder
+-importujemo sve funkcije kao actions iz actions.ts fajla
+-form elementu dodajemo prop action
+-u prop action proslijedujemo vrijednost actions.createTopic
