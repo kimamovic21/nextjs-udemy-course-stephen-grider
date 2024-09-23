@@ -556,3 +556,20 @@ Section 07: Authentication with Next-Auth
 -u komponenti TopicCreateForm.tsx komponentama Input i Textarea dodajemo prop name
 -u create-topic.ts fajlu, funkciji createTopic() dodajemo parametar formData i tip FormData
 -kreiramo varijabla const name i const description
+
+78. Adding Form Validation with Zod
+-otvorimo link https://www.npmjs.com/package/zod
+-u terminalu instaliramo paket Zod sa komandom npm install zod
+-u create-topic.ts fajl importujemo varijablu z iz paketa zod
+-kreiramo metodu z.object()
+-u funkciju object() dodajemo konfiguracioni objekt
+-vrijednost metode z.object() pohranjujemo u varijablu const createTopicSchema
+-u konfiguracioni objekt dodajemo validaciju za varijablu name
+-dodajemo validaciju za varijablu description
+-u funkciji createTopic() dodajemo metodu createTopicSchema.safeParse()
+-u funkciju safeParse() dodajemo konfiguracioni objekt
+-u konfiguracioni objekt dodajemo key - value par za varijable name i description
+-vrijednost ove metode pohranjujemo u varijablu const result
+-dodajemo uslov if (!result.success)
+-u uslovu if dodajemo console.error()
+-u console.error() dodajemo metode flatten() i fieldErrors
