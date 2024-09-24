@@ -619,3 +619,20 @@ Section 07: Authentication with Next-Auth
 -u uslov if i else dodajemo objekt errors
 -importujemo funkciju revalidatePath iz paketa next/cache
 -u funkciju createTopic() dodajemo funkciju revalidatePath('/')
+
+
+Section 08: Using Data - Databse Queries
+
+85. Showing Loading Spinners with UseFormStatus
+-u create-topic.ts fajlu, u funkciju createTopic() dodajemo await new Promise() koji ce da traje jednu sekundu
+-u folderu components kreiramo folder common
+-u folderu common kreiramo komponentu FormButton.tsx
+-u komponenti FormButton.tsx, funkciji FormButton() dodajemo destruktuirani prop children
+-kreiramo interface FormButtonProps
+-importujemo i kreiramo funkciju useFormStatus()
+-vrijednost funkcije useFormStatus() pohranjujemo u destruktuiranu varijablu const { pending }
+-importujemo komponentu Button iz paketa nextui-org/react
+-u jsx-u kreiramo komponentu Button sa otvorenim i zatvorenim tagom
+-komponenti Button dodajemo prop type i isLoading
+-u prop isLoading proslijedujemo vrijednost varijable pending
+-u komponentu TopicCreateForm.tsx importujemo komponentu FormButton.tsx
