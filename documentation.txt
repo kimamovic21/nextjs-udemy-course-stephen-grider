@@ -699,3 +699,10 @@ Section 08: Using Data - Database Queries
 -komponentama Input dodajemo prop isInvalid i errorMessage
 -form elementu dodajemo prop action
 -u prop action proslijedujemo funkciju action
+
+90. Checking Authentication Status
+-u create-post.ts fajlu dodajemo metodu await auth()
+-vrijednost metode await auth() pohranjujemo u varijablu const session
+-dodajemo uslov if (!session || !session.user)
+-u uslov if dodajemo return izjavu i objekt errors
+-u komponentu PostCreateForm.tsx, u jsx-u dodajemo ternarni uslov za varijablu formState.errors._form
