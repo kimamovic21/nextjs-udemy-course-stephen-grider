@@ -653,3 +653,12 @@ Section 08: Using Data - Databse Queries
 -u div elemnt gdje se nalazi komponenta TopicCreateForm dodajemo komponentu TopicList
 -importujemo komponentu Divider iz paketa nextui-org/react
 -u jsx-u kreiramo komponentu Divider
+
+87. Scaffolding the Topic Show Page
+-u [slug]/page.tsx fajlu, kreiramo interface TopicShowPageProps
+-u interface TopicShowPageProps dodajemo objekt params
+-funkciji TopicShowPage() dodajemo parametar destruktuirani prop params
+-parametru params dodajemo tip TopicShowPageProps
+-destruktuiramo varijablu const { slug } iz varijable params
+-u jsx-u kreiramo div i h2 elemente sa Tailwind CSS klasama
+-u h2 element dodajemo varijablu slug
