@@ -1,7 +1,12 @@
 'use server';
 
+import { redirect } from 'next/navigation';
+import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import { auth } from '@/auth';
+import type { Topic } from '@prisma/client';
+import { db } from '@/db';
+import paths from '@/paths';
 
 const createTopicSchema = z.object({
     name: z
@@ -45,12 +50,33 @@ export async function createTopic(
             errors: {
                 _form: ['You must be signed in to create a topic!'],
             }
-        }
-    }
-
-    return {
-        errors: {}
+        };
     };
 
-    // TODO: revalidate the homepage 
+    let topic: Topic;
+    try {
+        topic = await db.topic.create({
+            data: {
+                slug: result.data.name,
+                description: result.data.description
+            },
+        });
+    } catch (err: unknown) {
+        if (err instanceof Error) {
+            return {
+                errors: {
+                    _form: [err.message],
+                },
+            };
+        } else {
+            return {
+                errors: {
+                    _form: ['Something went wrong!'],
+                },
+            };
+        };
+    };
+
+    revalidatePath('/');
+    redirect(paths.topicShow(topic.slug));
 };

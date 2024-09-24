@@ -605,3 +605,17 @@ Section 07: Authentication with Next-Auth
 -u uslov if dodajemo objekt errors
 -u objekt errors dodajemo varijablu _form
 -u komponenti TopicCreateForm.tsx, u jsx-u dodajemo ternarni uslov za varijablu formState.errors._form
+
+84. Handling Database Errors in Forms
+-u create-topic.ts fajl importujemo funkciju redirect, tip Topic, instancu db i instancu paths
+-u funkciji createTopic() kreiramo blokove koda try - catch
+-kreiramo varijablu let topic: Topic
+-u blok koda try dodajemo metodu await db.topic.create()
+-vrijednost metode await db.topic.create() pohranjujemo u varijablu topic
+-u blok koda catch dodajemo (err: unknown)
+-nakon bloka koda try - catch dodajemo funkciju redirect()
+-u funkciju redirect dodajemo argument paths.topicShow()
+-u blok koda catch dodajemo uslov if (err instanceof Error) i else
+-u uslov if i else dodajemo objekt errors
+-importujemo funkciju revalidatePath iz paketa next/cache
+-u funkciju createTopic() dodajemo funkciju revalidatePath('/')
