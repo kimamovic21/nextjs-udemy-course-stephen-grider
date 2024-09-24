@@ -636,3 +636,20 @@ Section 08: Using Data - Databse Queries
 -komponenti Button dodajemo prop type i isLoading
 -u prop isLoading proslijedujemo vrijednost varijable pending
 -u komponentu TopicCreateForm.tsx importujemo komponentu FormButton.tsx
+
+86. Fetching and Listing Content from Prisma
+-u folderu topics kreiramo komponentu TopicList.tsx
+-u komponentu TopicList.tsx importujemo komponentu Link, komponentu Chip iz paketa nextui-org/react i instancu db
+-kreiramo i eksportujemo asinhronu funkciju TopicList()
+-u funkciju TopicList() dodajemo metodu await db.topic.findMany()
+-vrijednost metode await db.topic.findMany() pohranjujemo u varijablu const topics
+-dodajemo metodu topics.map()
+-vrijednost metode topics.map() pohranjujemo u varijablu const renderedTopics
+-u funkciju map() dodajemo return izjavu i kreiramo div element
+-u div elementu kreiramo komponente Link i Chip
+-u jsx-u kreiramo div element sa Tailwind CSS flex klasama
+-u div element dodajemo varijablu renderedTopics
+-u app/page.tsx fajl importujemo komponentu TopicList.tsx
+-u div elemnt gdje se nalazi komponenta TopicCreateForm dodajemo komponentu TopicList
+-importujemo komponentu Divider iz paketa nextui-org/react
+-u jsx-u kreiramo komponentu Divider
