@@ -621,7 +621,7 @@ Section 07: Authentication with Next-Auth
 -u funkciju createTopic() dodajemo funkciju revalidatePath('/')
 
 
-Section 08: Using Data - Databse Queries
+Section 08: Using Data - Database Queries
 
 85. Showing Loading Spinners with UseFormStatus
 -u create-topic.ts fajlu, u funkciju createTopic() dodajemo await new Promise() koji ce da traje jednu sekundu
@@ -676,3 +676,26 @@ Section 08: Using Data - Databse Queries
 -u komponenti PopoverContent kreiramo elemente form, div, h3 i dvije komponente Input
 -komponentama Input dodajemo prop name, label, labelPlacement i placeholder
 -dodajemo komponentu FormButton
+
+89. Applying Validation to Post Creation
+-u create-post.ts importujemo potrebne funkcije i instance
+-dodajemo metodu z.object()
+-vrijednost metode z.object() pohranjujemo u varijablu const createPostSchema
+-u funkciju z.object() dodajemo konfiguracioni objekt
+-kreiramo interface CreatePostFormState i unutar njega objekt errors
+-u objektu errors varijablama title, content i _form dodajemo tipove string[]
+-funkciji createPost() dodajemo parametre formState i formData
+-parametru formState dodajemo tip CreatePostFormState
+-parametru formData dodajemo tip FormData
+-funkciji createPost dodajemo tip Promise<CreatePostFormState>
+-u funkciji createPost() dodajemo metodu createPostSchema.safeParse()
+-u funkciju safeParse() dodajemo konfiguracioni objekt i key - value vrijednosti za varijable title i content
+-dodajemo uslov if (!result.success)
+-u uslov if dodajemo return izjavu i objekt errors
+-nakon uslova if dodajemo jos jednu return izjavu i prazan objekt errors
+-u komponentu PostCreateForm.tsx dodajemo import * as actions 
+-importujemo i kreiramo funkciju useFormState()
+-vrijednost funkcije useFormState() pohranjujemo u varijable const [formState, action]
+-komponentama Input dodajemo prop isInvalid i errorMessage
+-form elementu dodajemo prop action
+-u prop action proslijedujemo funkciju action
