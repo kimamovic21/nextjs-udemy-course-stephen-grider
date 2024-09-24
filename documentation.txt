@@ -662,3 +662,17 @@ Section 08: Using Data - Databse Queries
 -destruktuiramo varijablu const { slug } iz varijable params
 -u jsx-u kreiramo div i h2 elemente sa Tailwind CSS klasama
 -u h2 element dodajemo varijablu slug
+
+88. Displaying a Creation Form
+-u folderu comment kreiramo folder posts i komponentu PostCreateForm.tsx
+-u [slug]/page.tsx fajl importujemo komponentu PostCreateForm.tsx
+-u jsx-u kreiramo div element u koji dodajemo komponentu PostCreateForm
+-u komponentu PostCreateForm.tsx dodajemo direktivu 'use client'
+-importujemo komponente iz paketa nextui-org/react
+-importujemo komponentu FormButton.tsx
+-u jsx-u kreiramo komponentu Popover sa otvorenim i zatvorenim tagom kao roditelj element za ostale komponente
+-u komponenti Popover kreiramo komponente PopoverTrigger i PopoverContent sa otvorenim i zatvorenim tagom
+-u komponenti PopoverTrigger kreiramo komponentu Button
+-u komponenti PopoverContent kreiramo elemente form, div, h3 i dvije komponente Input
+-komponentama Input dodajemo prop name, label, labelPlacement i placeholder
+-dodajemo komponentu FormButton
