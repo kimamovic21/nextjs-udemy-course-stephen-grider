@@ -735,3 +735,9 @@ Section 08: Using Data - Database Queries
 
 93. A Few Project Files
 -preuzmemo folder files
+
+94. Merging a Few Files
+-u next.config.js fajlu kreiramo objekt images
+-u folderu components kreiramo folder comments 
+-u folderu comments kreiramo komponente CommentCreateForm.tsx, CommentList.tsx i CommentShow.tsx
+-u folderu posts kreiramo komponente PostList.tsx i PostShow.tsx
