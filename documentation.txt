@@ -743,3 +743,5 @@ Section 08: Using Data - Database Queries
 -u folderu posts kreiramo komponente PostList.tsx i PostShow.tsx
 
 95. Considerations Around Where to Fetch Data
+
+96. Data Fetching in Child Components
