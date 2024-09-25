@@ -719,3 +719,16 @@ Section 08: Using Data - Database Queries
 -vrijednost metode await db.topic.findFirst() pohranjujemo u varijablu const topic
 -dodajemo uslov if (!topic)
 -u uslov if (!topic) dodajemo return izjavu i objekt errors
+
+92. Creating the Record
+-u create-post.ts fajlu kreiramo varijablu let post: Post
+-kreiramo blokove koda try - catch
+-u blok koda try dodajemo metodu await db.post.create()
+-vrijednost metode await db.post.create() pohranjujemo u varijablu post
+-u funkciju create() dodajemo objekt data koji sadrzi varijable title, content, userId i topicId
+-u blok koda catch dodajemo uslov if (err instanceof Error) i else
+-u uslov if dodajemo return izjavu i objekt errors
+-u uslov else dodajemo return izjavu i objekt errors
+-nakon blokova koda try - catch dodajemo funkciju revalidatePath()
+-dodajemo funkciju redirect()
+-u pretrazivacu u jednoj od tema kreiramo objavu
