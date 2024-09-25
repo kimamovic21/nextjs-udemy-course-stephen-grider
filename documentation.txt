@@ -745,3 +745,5 @@ Section 08: Using Data - Database Queries
 95. Considerations Around Where to Fetch Data
 
 96. Data Fetching in Child Components
+
+97. Recommended Data Fetching
