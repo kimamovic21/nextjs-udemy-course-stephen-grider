@@ -732,3 +732,6 @@ Section 08: Using Data - Database Queries
 -nakon blokova koda try - catch dodajemo funkciju revalidatePath()
 -dodajemo funkciju redirect()
 -u pretrazivacu u jednoj od tema kreiramo objavu
+
+93. A Few Project Files
+-preuzmemo folder files
