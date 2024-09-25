@@ -706,3 +706,16 @@ Section 08: Using Data - Database Queries
 -dodajemo uslov if (!session || !session.user)
 -u uslov if dodajemo return izjavu i objekt errors
 -u komponentu PostCreateForm.tsx, u jsx-u dodajemo ternarni uslov za varijablu formState.errors._form
+
+91. Passing Additional Args to a Server Action
+-u [slug]/page.tsx fajlu, komponenti PostCreateForm dodajemo prop slug
+-u prop slug proslijedujemo varijablu slug
+-u komponenti PostCreateForm.tsx kreiramo interface PostCreateFormProps
+-funkciji PostCreateForm() dodajemo parametar destruktuirani prop slug
+-parametru slug dodajemo tip PostCreateFormProps
+-argumentu actions.createPost dodajemo metodu .bind()
+-u create-post.ts fajlu funkciji createPost() dodajemo parametar slug i tip string
+-dodajemo metodu await db.topic.findFirst()
+-vrijednost metode await db.topic.findFirst() pohranjujemo u varijablu const topic
+-dodajemo uslov if (!topic)
+-u uslov if (!topic) dodajemo return izjavu i objekt errors
