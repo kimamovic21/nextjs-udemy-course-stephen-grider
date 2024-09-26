@@ -843,3 +843,8 @@ Section 09: Caching with Request Memoization
 -u jsx-u, komponenti CommentShow dodajemo prop postId umjesto comments
 
 106. Request Memoization
+
+107. Deduplicating Requests with Cache
+-u comments.ts fajl importujemo funkciju cache iz paketa react
+-dodajemo funkciju cache()
+-vrijednost funkcije cache() pohranjujemo u varijablu const fetchCommentsByPostId
