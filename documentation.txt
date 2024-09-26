@@ -793,3 +793,10 @@ Section 08: Using Data - Database Queries
 -komponenti PostShow dodajemo prop postId
 -u prop postId proslijedujemo varijablu postId
 -importujemo i kreiramo komponentu Link
+
+101. Comment Creation
+-u [postId]/page.tsx fajl importujemo komponentu CommentCreateForm.tsx
+-u jsx-u dodajemo komponentu CommentCreateForm sa prop postId i startOpen
+-u prop postId proslijedujemo varijablu postId
+-u create-comment.ts fajl dodajemo logiku za kreiranje komentara
+-u ruti gdje se nalaze tema i objava kreiramo komentar
