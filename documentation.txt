@@ -841,3 +841,5 @@ Section 09: Caching with Request Memoization
 -dodajemo metodu await fetchCommentsByPostId(postId)
 -vrijednost metode await fetchCommentsByPostId(postId) pohranjujemo u varijablu const comments
 -u jsx-u, komponenti CommentShow dodajemo prop postId umjesto comments
+
+106. Request Memoization
