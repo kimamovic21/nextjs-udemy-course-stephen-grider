@@ -777,3 +777,19 @@ Section 08: Using Data - Database Queries
 
 99. Alternative Type Names and Query Definitions
 -alternativni nacin za kreiranje tipa PostWithData
+
+100. Don't Go Crazy With Reuse
+-u komponentu PostShow.tsx importujemo instancu db
+-u interface PostShowProps dodajemo postId kao string
+-funkciji PostShow() dodajemo parametar destruktuirani prop postId
+-parametru postId dodajemo tip PostShowProps
+-dodajemo metodu await db.post.findFirst()
+-vrijednost metode await db.post.findFirst() pohranjujemo u varijablu const post
+-dodajemo uslov if (!post)
+-importujemo funkciju notFound iz paketa next/navigation
+-u uslov if (!post) dodajemo funkciju notFound()
+-u [postId]/page.tsx fajl importujemo komponentu PostShow.tsx
+-u jsx-u dodajemo komponentu PostShow
+-komponenti PostShow dodajemo prop postId
+-u prop postId proslijedujemo varijablu postId
+-importujemo i kreiramo komponentu Link
