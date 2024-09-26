@@ -747,3 +747,30 @@ Section 08: Using Data - Database Queries
 96. Data Fetching in Child Components
 
 97. Recommended Data Fetching
+
+98. Define in Parent, Fetch in Child
+-u folderu db kreiramo folder queries
+-u folderu queries kreiramo posts.ts fajl
+-u posts.ts fajl importujemo tip Post i instancu db
+-kreiramo i eksportujemo tip type PostWithData
+-kreiramo i eksportujemo funkciju fetchPostsByTopicSlug()
+-funkciji fetchPostsByTopicSlug() dodajemo parametar slug i tip string
+-u funkciju fetchPostsByTopicSlug() dodajemo metodu db.post.findMany()
+-funkciji fetchPostsByTopicSlug() dodajemo tip Promise<PostWithData[]>
+-u komponentu PostList.tsx importujemo tip PostWithData
+-kreiramo interface PostListProps
+-u interface PostListProps definisemo kakva treba biti funkcija fetchData
+-funkciji PostList() dodajemo async
+-funkciji PostList() dodajemo parametar destruktuirani prop fetchData
+-parametru fetchData dodajemo tip PostListProps
+-u funkciji PostList() dodajemo metodu await fetchData()
+-vrijednost metode await fetchData() pohranjujemo u varijablu const posts
+-dodajemo metodu posts.map()
+-vrijednost metode posts.map() pohranjujemo u varijablu const renderedPosts
+-u jsx-u, u div elemen dodajemo varijablu renderedPosts
+-u [slug]/page.tsx fajl importujemo funkciju fetchPostsByTopicSlug i komponentu PostList.tsx
+-u jsx-u, u div elementu dodajemo komponentu PostList
+-komponenti PostList dodajemo prop fetchData
+-u prop fetchData proslijedujemo anonimnu funkciju
+-u anonimnu funkciju proslijedujemo funkciju fetchPostsByTopicSlug(slug)
+-u pretrazivacu otvorimo link npr http://localhost:3000/topics/javascript
