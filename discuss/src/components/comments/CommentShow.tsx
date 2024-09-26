@@ -1,13 +1,16 @@
 import type { CommentWithAuthor } from '@/db/queries/comments'
+import { fetchCommentsByPostId } from '@/db/queries/comments'
 import Image from 'next/image'
 import CommentCreateForm from '@/components/comments/CommentCreateForm'
 
 interface CommentShowProps {
   commentId: string
-  comments: CommentWithAuthor[]
+  postId: string
 }
 
-export default function CommentShow({ commentId, comments }: CommentShowProps) {
+export default async function CommentShow({ commentId, postId }: CommentShowProps) {
+  const comments = await fetchCommentsByPostId(postId)
+
   const comment = comments.find((c) => c.id === commentId)
 
   if (!comment) {
@@ -15,9 +18,14 @@ export default function CommentShow({ commentId, comments }: CommentShowProps) {
   }
 
   const children = comments.filter((c) => c.parentId === commentId)
+  
   const renderedChildren = children.map((child) => {
     return (
-      <CommentShow key={child.id} commentId={child.id} comments={comments} />
+      <CommentShow 
+        key={child.id} 
+        commentId={child.id} 
+        postId={postId}
+      />
     )
   })
 
@@ -37,7 +45,10 @@ export default function CommentShow({ commentId, comments }: CommentShowProps) {
           </p>
           <p className="text-gray-900">{comment.content}</p>
 
-          <CommentCreateForm postId={comment.postId} parentId={comment.id} />
+          <CommentCreateForm 
+            postId={comment.postId} 
+            parentId={comment.id} 
+          />
         </div>
       </div>
       <div className="pl-4">{renderedChildren}</div>

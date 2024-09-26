@@ -829,3 +829,15 @@ Section 08: Using Data - Database Queries
 Section 09: Caching with Request Memoization
 
 104. Multiple Repeated DB Queries
+
+105. Introducing Duplicate Queries
+-u [postId]/page.tsx fajlu komponenti CommentList dodajemo prop postId
+-u komponentu CommentList.tsx importujemo funkciju fetchCommentsByPostId
+-funkciji CommentList() umjesto parametra fetchData dodajemo parametar postId
+-umjesto metode await fetchData() dodajemo metodu await fetchCommentsByPostId(postId)
+-u jsx-u, komponenti CommentList dodajemo prop postId umjesto fetchData
+-u komponentu CommentShow.tsx importujemo funkciju fetchCommentsByPostId
+-funkciji CommentShow() dodajemo async
+-dodajemo metodu await fetchCommentsByPostId(postId)
+-vrijednost metode await fetchCommentsByPostId(postId) pohranjujemo u varijablu const comments
+-u jsx-u, komponenti CommentShow dodajemo prop postId umjesto comments
