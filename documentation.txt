@@ -800,3 +800,5 @@ Section 08: Using Data - Database Queries
 -u prop postId proslijedujemo varijablu postId
 -u create-comment.ts fajl dodajemo logiku za kreiranje komentara
 -u ruti gdje se nalaze tema i objava kreiramo komentar
+
+102. Recursively Rendering Components
