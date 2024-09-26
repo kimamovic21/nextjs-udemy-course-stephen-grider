@@ -802,3 +802,25 @@ Section 08: Using Data - Database Queries
 -u ruti gdje se nalaze tema i objava kreiramo komentar
 
 102. Recursively Rendering Components
+
+103. Fetching the Big List
+-u folderu queries kreiramo comments.ts fajl
+-u comments.ts fajl importujemo instancu db i tip Comment
+-kreiramo i eksportujemo tip CommentWithAuthor
+-kreiramo i eksportujemo funkciju fetchCommentsByPostId()
+-u funkciju fetchCommentsByPostId() dodajemo metodu db.comment.findMany()
+-u komponentu CommentList.tsx importujemo tip CommentWithAuthor
+-u interface CommentListProps definisemo vrijednost funkcije fetchData
+-funkciji CommentList() dodajemo parametar destruktuirani prop fetchData
+-u funkiju CommentList() dodajemo metodu await fetchData()
+-vrijednost metode await fetchData() pohranjujemo u varijablu const comments
+-u komponentu CommentShow.tsx importujemo tip CommentWithAuthor
+-u interface CommentShowProps definisemo varijablu comments
+-funkciji CommentShow() dodajemo parametar destruktuirani prop comments
+-u [postId]/page.tsx fajl importujemo funkciju fetchCommentsByPostId
+-importujemo komponentu CommentList.tsx
+-u jsx dodajemo dodajemo komponentu CommentList
+-komponenti CommentList dodajemo prop fetchData
+-u prop fetchData proslijedujemo anonimnu funkciju
+-u anonimnu funkciju proslijedujemo funkciju fetchCommentsByPostId(postId)
+-kad otvorimo projekt u pretrazivacu kreiramo komentare 
