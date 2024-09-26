@@ -774,3 +774,6 @@ Section 08: Using Data - Database Queries
 -u prop fetchData proslijedujemo anonimnu funkciju
 -u anonimnu funkciju proslijedujemo funkciju fetchPostsByTopicSlug(slug)
 -u pretrazivacu otvorimo link npr http://localhost:3000/topics/javascript
+
+99. Alternative Type Names and Query Definitions
+-alternativni nacin za kreiranje tipa PostWithData
