@@ -941,3 +941,5 @@ Section 10: Implementing Search Functionality
 -u komponentu Suspense dodajemo komponentu SearchInput
 
 119. Wrap Up!
+
+120. Deploying Discuss App to Vercel with Postgres
