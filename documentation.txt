@@ -880,3 +880,5 @@ Section 10: Implementing Search Functionality
 112. Back to the Search Input
 -u folderu components kreiramo komponentu SearchInput.tsx
 -u komponentu Header.tsx importujemo komponentu SearchInput.tsx
+
+113. Notes on QueryStrings in Next
