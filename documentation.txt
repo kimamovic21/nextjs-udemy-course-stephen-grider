@@ -865,3 +865,14 @@ Section 10: Implementing Search Functionality
 -u komponentu PostShowLoading.tsx importujemo komponentu Skeleton iz paketa nextui/react
 -u [pageId]/page.tsx fajl importujemo komponentu PostShowLoading.tsx
 -u prop fallback proslijedujemo komponentu PostShowLoading
+
+111. Top Posts on the HomePage
+-u posts.ts fajlu kreiramo i eksportujemo asinhronu funkciju fetchTopPosts()
+-funkciji fetchTopPosts() dodajemo tip Promise<PostWithData[]>
+-u funkciju fetchTopPosts() dodajemo metodu db.post.findMany()
+-u funkciju findMany() dodajemo opcije orderBy, include i take
+-u app/page.tsx fajl importujemo komponentu PostList.tsx
+-importujemo funkciju fetchTopPosts
+-u jsx-u dodajemo komponentu PostList
+-komponenti PostList dodajemo prop fetchData
+-u prop fetchData proslijedujemo funkciju fetchTopPosts
