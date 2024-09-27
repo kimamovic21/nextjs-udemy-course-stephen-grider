@@ -922,3 +922,15 @@ Section 10: Implementing Search Functionality
 -u uslov if (!term) dodajemo funkciju redirect('/')
 -ujsx-u, u div element dodajemo varijablu term
 -u pretrazivacu otvorimo rutu http://localhost:3000/search?term=javascript
+
+117. Running the Search
+-u posts.ts fajlu kreiramo i eksportujemo funkciju fetchPostsBySearchTerm()
+-funkciji fetchPostsBySearchTerm() dodajemo tip Promise<PostWithData[]>
+-u funkciju fetchPostsBySearchTerm() dodajemo metodu db.post.findMany()
+-u funkciju findMany() dodajemo objekt i opcije include i where
+-funkciji fetchPostsBySearchTerm() dodajemo parametar term i tip string
+-u search/page.tsx fajl importujemo funkciju fetchPostsBySearchTerm i komponentu PostList.tsx
+-u jsx dodajemo komponentu PostList
+-komponente PostList dodajemo prop fetchData
+-u prop fetchData proslijedujemo anonimnu funkciju 
+-u anonimnu funkciju proslijedujemo funkciju fetchPostsBySearchTerm(term)
