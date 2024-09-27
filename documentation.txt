@@ -882,3 +882,11 @@ Section 10: Implementing Search Functionality
 -u komponentu Header.tsx importujemo komponentu SearchInput.tsx
 
 113. Notes on QueryStrings in Next
+
+114. Accessing the Query String
+-u komponentu SearchInput.tsx dodajemo direktivu 'use client'
+-importujemo i kreiramo funkciju useSearchParams iz paketa next/navigation
+-vrijednost funkcije useSearchParams() pohranjujemo u varijablu const searchParams
+-komponenti Input dodajemo prop defaultValue
+-u prop defaultValue dodajemo metodu searchParams.get()
+-u pretrazivacu otvorimo rutu http://localhost:3000/?term=javascript
