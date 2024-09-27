@@ -939,3 +939,5 @@ Section 10: Implementing Search Functionality
 -u komponentu Header.tsx importujemo komponentu Suspense iz paketa react
 -u jsx-u kreiramo komponentu Suspense sa otvorenim i zatvorenim tagom
 -u komponentu Suspense dodajemo komponentu SearchInput
+
+119. Wrap Up!
