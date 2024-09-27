@@ -908,3 +908,17 @@ Section 10: Implementing Search Functionality
 -u prop action proslijedujemo funkciju actions.search
 -komponenti Input dodajemo prop name
 -u pretrazivacu otvorimo rutu http://localhost:3000/?term=javascript
+
+116. Receiving the Query String in a Server Component
+-u folderu app kreiramo folder search
+-u folderu search kreiramo page.tsx fajl
+-u search/page.tsx fajlu kreiramo i eksportujemo asinhronu funkciju SearchPage()
+-kreiramo interface SearchPageProps
+-funkciji SearchPage() dodajemo parametar destruktuirani prop searchParams
+-parametru dodajemo tip SearchPageProps
+-destruktuiramo varijablu const { term } iz varijable searchParams
+-dodajemo uslov if (!term)
+-importujemo funkciju redirect
+-u uslov if (!term) dodajemo funkciju redirect('/')
+-ujsx-u, u div element dodajemo varijablu term
+-u pretrazivacu otvorimo rutu http://localhost:3000/search?term=javascript
