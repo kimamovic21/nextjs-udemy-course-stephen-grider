@@ -890,3 +890,21 @@ Section 10: Implementing Search Functionality
 -komponenti Input dodajemo prop defaultValue
 -u prop defaultValue dodajemo metodu searchParams.get()
 -u pretrazivacu otvorimo rutu http://localhost:3000/?term=javascript
+
+115. Redirecting From a Server Action
+-u folderu actions kreiramo search.ts fajl
+-u search.ts fajl dodajemo direktivu 'use server'
+-kreiramo i eksportujemo asinhronu funkciju search()
+-funkciji search() dodajemo parametar formData
+-parametru formData dodajemo tip FormData
+-u funkciji search kreiramo varijablu const term
+-importujemo i kreiramo funkciju redirect iz paketa next/navigation
+-dodajemo uslov if 
+-u uslov if dodajemo funkciju redirect('/')
+-poslije uslva if dodajemo jos jednu funkciju redirect() u kojoj se nalazi varijabla term
+-u intex.ts fajlu eksportujemo funkciju search
+-u komponenti SearchInput.tsx dodajemo import * as actions 
+-u jsx-u kreiramo form element sa prop action
+-u prop action proslijedujemo funkciju actions.search
+-komponenti Input dodajemo prop name
+-u pretrazivacu otvorimo rutu http://localhost:3000/?term=javascript
