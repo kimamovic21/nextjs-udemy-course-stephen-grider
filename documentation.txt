@@ -934,3 +934,8 @@ Section 10: Implementing Search Functionality
 -komponente PostList dodajemo prop fetchData
 -u prop fetchData proslijedujemo anonimnu funkciju 
 -u anonimnu funkciju proslijedujemo funkciju fetchPostsBySearchTerm(term)
+
+118. The De-Opt to Client Side Rendering Warning
+-u komponentu Header.tsx importujemo komponentu Suspense iz paketa react
+-u jsx-u kreiramo komponentu Suspense sa otvorenim i zatvorenim tagom
+-u komponentu Suspense dodajemo komponentu SearchInput
