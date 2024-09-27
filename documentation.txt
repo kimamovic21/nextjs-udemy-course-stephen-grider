@@ -853,3 +853,9 @@ Section 09: Caching with Request Memoization
 Section 10: Implementing Search Functionality
 
 108. Adding in Component Streaming
+
+109. Streaming with Suspense
+-u PostShow.tsx fajl dodajemo metodu await new Promise()
+-u [postId]/page.tsx fajl importujemo komponentu Suspense iz paketa react
+-u jsx-u kreiramo komponentu Suspense sa otvorenim i zatvorenim tagom
+-komponenti Suspense dodajemo prop fallback
