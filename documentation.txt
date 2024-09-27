@@ -859,3 +859,9 @@ Section 10: Implementing Search Functionality
 -u [postId]/page.tsx fajl importujemo komponentu Suspense iz paketa react
 -u jsx-u kreiramo komponentu Suspense sa otvorenim i zatvorenim tagom
 -komponenti Suspense dodajemo prop fallback
+
+110. Adding a Loading Skeleton
+-u folderu posts kreiramo komponentu PostShowLoading.tsx
+-u komponentu PostShowLoading.tsx importujemo komponentu Skeleton iz paketa nextui/react
+-u [pageId]/page.tsx fajl importujemo komponentu PostShowLoading.tsx
+-u prop fallback proslijedujemo komponentu PostShowLoading
