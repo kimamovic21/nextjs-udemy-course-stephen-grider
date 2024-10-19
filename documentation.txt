@@ -965,3 +965,5 @@ Section 11: Supplement - React Primer
 -u terminalu ukucamo komandu npx create-react-app jsx
 -instaliramo React.js aplikaciju
 -u terminalu ukucamo komandu npm start da pokrenemo aplikaciju
+
+127. What is Create React App
