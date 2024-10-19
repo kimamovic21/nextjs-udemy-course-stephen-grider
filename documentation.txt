@@ -967,3 +967,7 @@ Section 11: Supplement - React Primer
 -u terminalu ukucamo komandu npm start da pokrenemo aplikaciju
 
 127. What is Create React App
+
+128. Showing Basic Content
+-obrisani nepotrebni fajlovi iz projekta jsx
+-u index.js fajl dodajemo logiku za pokretanje React.js aplikacije
