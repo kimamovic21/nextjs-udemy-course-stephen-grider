@@ -971,3 +971,6 @@ Section 11: Supplement - React Primer
 128. Showing Basic Content
 -obrisani nepotrebni fajlovi iz projekta jsx
 -u index.js fajl dodajemo logiku za pokretanje React.js aplikacije
+
+129. What is JSX ?
+-otvorimo web stranicu https://babeljs.io/repl
