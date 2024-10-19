@@ -955,3 +955,8 @@ Section 11: Supplement - React Primer
 123. Critical Questions
 
 124. A Few More Critical Questions
+
+125. Node Setup
+-otvorimo web stranicu https://nodejs.org/en
+-u terminalu ukucamo komandu node -v
+-instaliramo Node na racunaru
