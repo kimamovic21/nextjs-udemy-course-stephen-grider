@@ -951,3 +951,5 @@ Section 11: Supplement - React Primer
 
 122. Let's Build an App!
 -otvorimo link: https://codesandbox.io/p/sandbox/react-pibc94
+
+123. Critical Questions
