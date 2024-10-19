@@ -980,3 +980,7 @@ Section 11: Supplement - React Primer
 -dodajemo uslov if (Math.random() > 0.5)
 -u uslovu if redeklarisemo varijablu message
 -u jsx, u h1 element dodajemo varijablu {message}
+
+131. Shorthand JSX Expressions
+-u funkciji App() kreiramo varijable const date i const time
+-u h1 element dodajemo metodu new Date()
