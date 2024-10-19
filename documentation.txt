@@ -943,3 +943,8 @@ Section 10: Implementing Search Functionality
 119. Wrap Up!
 
 120. Deploying Discuss App to Vercel with Postgres
+
+
+Section 11: Supplement - React Primer 
+
+121. A Note About the Following Lectures
