@@ -953,3 +953,5 @@ Section 11: Supplement - React Primer
 -otvorimo link: https://codesandbox.io/p/sandbox/react-pibc94
 
 123. Critical Questions
+
+124. A Few More Critical Questions
