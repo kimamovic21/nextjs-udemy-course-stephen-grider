@@ -960,3 +960,8 @@ Section 11: Supplement - React Primer
 -otvorimo web stranicu https://nodejs.org/en
 -u terminalu ukucamo komandu node -v
 -instaliramo Node na racunaru
+
+126. Creating a React Project
+-u terminalu ukucamo komandu npx create-react-app jsx
+-instaliramo React.js aplikaciju
+-u terminalu ukucamo komandu npm start da pokrenemo aplikaciju
