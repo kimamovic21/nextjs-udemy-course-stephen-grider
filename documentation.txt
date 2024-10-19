@@ -948,3 +948,6 @@ Section 10: Implementing Search Functionality
 Section 11: Supplement - React Primer 
 
 121. A Note About the Following Lectures
+
+122. Let's Build an App!
+-otvorimo link: https://codesandbox.io/p/sandbox/react-pibc94
