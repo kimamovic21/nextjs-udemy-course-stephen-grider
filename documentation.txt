@@ -974,3 +974,9 @@ Section 11: Supplement - React Primer
 
 129. What is JSX ?
 -otvorimo web stranicu https://babeljs.io/repl
+
+130. Printing JavaScript Variables in JSX
+-u funkciji App() kreiramo varijablu let message
+-dodajemo uslov if (Math.random() > 0.5)
+-u uslovu if redeklarisemo varijablu message
+-u jsx, u h1 element dodajemo varijablu {message}
