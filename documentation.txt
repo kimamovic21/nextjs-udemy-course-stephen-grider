@@ -984,3 +984,7 @@ Section 11: Supplement - React Primer
 131. Shorthand JSX Expressions
 -u funkciji App() kreiramo varijable const date i const time
 -u h1 element dodajemo metodu new Date()
+
+132. Typical Component Layouts
+-u funkciji App() kreiramo varijable const name i const age
+-u h1 element dodajemo varijable name i age
