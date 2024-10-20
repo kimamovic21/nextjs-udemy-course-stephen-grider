@@ -988,3 +988,7 @@ Section 11: Supplement - React Primer
 132. Typical Component Layouts
 -u funkciji App() kreiramo varijable const name i const age
 -u h1 element dodajemo varijable name i age
+
+133. Customizing Elements with Props
+-u funkciji App() kreiramo element input
+-input elementu dodajemo prop style, type, number i min 
