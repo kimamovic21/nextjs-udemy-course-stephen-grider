@@ -996,3 +996,5 @@ Section 11: Supplement - React Primer
 134. Converting HTML to JSX
 -u funkciji App() kreiramo element textarea
 -elementu textarea dodajemo prop autoFocus
+
+135. Applying Styling in JSX
