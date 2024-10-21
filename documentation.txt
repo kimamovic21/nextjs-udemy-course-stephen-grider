@@ -1015,3 +1015,5 @@ Section 11: Supplement - React Primer
 -kreiramo komponentu ProfileCard.js
 -u komponentu App.js importujemo komponentu ProfileCard
 -u komponenti App.js, u funkciju App() dodajemo tri komponente ProfileCard
+
+141. Introducing the Props Systems
