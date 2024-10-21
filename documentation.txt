@@ -1004,3 +1004,6 @@ Section 11: Supplement - React Primer
 -u index.js fajl importujemo komponentu App.js fajl
 
 137. Module Systems Overview
+
+138. Cheatsheet for JSX
+-otvorimo link: https://jsx-notes.vercel.app/
