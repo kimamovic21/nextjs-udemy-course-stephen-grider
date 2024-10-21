@@ -1029,3 +1029,5 @@ Section 11: Supplement - React Primer
 -funkciji ProfileCard() dodajemo parametre destruktuiramo props title i handle
 
 145. React Developer Tools
+
+146. Most Common Props Mistake
