@@ -1027,3 +1027,5 @@ Section 11: Supplement - React Primer
 144. Using Argument Destructuring
 -u komponenti ProfileCard, destruktuiramo varijable const { title, handle } iz varijable props
 -funkciji ProfileCard() dodajemo parametre destruktuiramo props title i handle
+
+145. React Developer Tools
