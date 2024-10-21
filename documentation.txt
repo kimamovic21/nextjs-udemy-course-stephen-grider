@@ -1019,3 +1019,7 @@ Section 11: Supplement - React Primer
 141. Introducing the Props Systems
 
 142. Picturing the Movement of Data
+
+143. Adding Props
+-u komponenti App.js, komponentama ProfileCard dodajemo prop title i handle
+-u komponenti ProfileCard, funkciji ProfileCard() dodajemo parametar props
