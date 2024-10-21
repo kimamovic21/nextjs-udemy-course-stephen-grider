@@ -1023,3 +1023,7 @@ Section 11: Supplement - React Primer
 143. Adding Props
 -u komponenti App.js, komponentama ProfileCard dodajemo prop title i handle
 -u komponenti ProfileCard, funkciji ProfileCard() dodajemo parametar props
+
+144. Using Argument Destructuring
+-u komponenti ProfileCard, destruktuiramo varijable const { title, handle } iz varijable props
+-funkciji ProfileCard() dodajemo parametre destruktuiramo props title i handle
