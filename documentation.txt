@@ -998,3 +998,7 @@ Section 11: Supplement - React Primer
 -elementu textarea dodajemo prop autoFocus
 
 135. Applying Styling in JSX
+
+136. Extracting Components
+-u folderu src kreiramo App.js fajl
+-u index.js fajl importujemo komponentu App.js fajl
