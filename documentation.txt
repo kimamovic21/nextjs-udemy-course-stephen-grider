@@ -1009,3 +1009,9 @@ Section 11: Supplement - React Primer
 -otvorimo link: https://jsx-notes.vercel.app/
 
 139. Project Overview
+
+140. Creating Core Components
+-kreiramo React.js aplikaciju pdas
+-kreiramo komponentu ProfileCard.js
+-u komponentu App.js importujemo komponentu ProfileCard
+-u komponenti App.js, u funkciju App() dodajemo tri komponente ProfileCard
