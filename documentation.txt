@@ -767,7 +767,7 @@ Section 08: Using Data - Database Queries
 -vrijednost metode await fetchData() pohranjujemo u varijablu const posts
 -dodajemo metodu posts.map()
 -vrijednost metode posts.map() pohranjujemo u varijablu const renderedPosts
--u jsx-u, u div elemen dodajemo varijablu renderedPosts
+-u jsx-u, u div element dodajemo varijablu renderedPosts
 -u [slug]/page.tsx fajl importujemo funkciju fetchPostsByTopicSlug i komponentu PostList.tsx
 -u jsx-u, u div elementu dodajemo komponentu PostList
 -komponenti PostList dodajemo prop fetchData
@@ -1050,3 +1050,12 @@ Section 11: Supplement - React Primer
 151. Adding CSS Libraries with NPM
 otvorimo web stranicu: https://bulma.io/
 -u terminalu instaliramo paket Bulma sa komandom npm install bulma
+
+152. A Big Pile of HTML!
+-u komponenti ProfileCard.js kreiramo HTML element figure sa klasom
+-kreiramo div element sa klasom card-content
+-kreiramo div element sa klasom media-content
+-kreiramo p elemente sa klasama iz paketa Bulma
+-u komponenti App.js kreiramo div element sa klasom container
+-kreiramo section element sa klasom section
+-kreiramo div elemente sa klasom column
