@@ -1059,3 +1059,9 @@ otvorimo web stranicu: https://bulma.io/
 -u komponenti App.js kreiramo div element sa klasom container
 -kreiramo section element sa klasom section
 -kreiramo div elemente sa klasom column
+
+153. Last Bit of Styling
+-u komponenti App.js kreiramo div element sa klasama iz paketa Bulma
+-u section elementu kreiramo div i p elemente
+-u komponenti App.js, komponentama dodajemo prop description
+-u komponenti ProfileCard.js kreiramo div element sa klasom content
