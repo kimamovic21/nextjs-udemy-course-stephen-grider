@@ -1044,3 +1044,5 @@ Section 11: Supplement - React Primer
 -u komponenti ProfileCard.js, funkciji ProfileCard() dodajemo parametre destruktuirane prop title, handle i image
 -u jsx-u kreiramo img element sa atributima src i alt
 -u atribut src proslijedujemo vrijednost varijable prop image 
+
+150. Review on How CSS Works
