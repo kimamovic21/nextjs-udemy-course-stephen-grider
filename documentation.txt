@@ -1046,3 +1046,7 @@ Section 11: Supplement - React Primer
 -u atribut src proslijedujemo vrijednost varijable prop image 
 
 150. Review on How CSS Works
+
+151. Adding CSS Libraries with NPM
+otvorimo web stranicu: https://bulma.io/
+-u terminalu instaliramo paket Bulma sa komandom npm install bulma
