@@ -1034,3 +1034,7 @@ Section 11: Supplement - React Primer
 
 147. Images for the App
 -preuzmemo folder sa slikama
+
+148. Including Images
+-u folderu src dodajemo folder images sa slikama
+-u komponentu App.js dodajemo import za slike
