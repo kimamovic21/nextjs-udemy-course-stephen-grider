@@ -1038,3 +1038,9 @@ Section 11: Supplement - React Primer
 148. Including Images
 -u folderu src dodajemo folder images sa slikama
 -u komponentu App.js dodajemo import za slike
+
+149. Handling Image Accessibility
+-u komponenti App.js, u jsx-u dodajemo komponentama ProfileCard prop image
+-u komponenti ProfileCard.js, funkciji ProfileCard() dodajemo parametre destruktuirane prop title, handle i image
+-u jsx-u kreiramo img element sa atributima src i alt
+-u atribut src proslijedujemo vrijednost varijable prop image 
