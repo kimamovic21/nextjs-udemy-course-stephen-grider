@@ -1031,3 +1031,6 @@ Section 11: Supplement - React Primer
 145. React Developer Tools
 
 146. Most Common Props Mistake
+
+147. Images for the App
+-preuzmemo folder sa slikama
