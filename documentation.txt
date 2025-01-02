@@ -1070,3 +1070,5 @@ otvorimo web stranicu: https://bulma.io/
 Section 12: Supplement - TypeScript Primer
 
 154. A Note About the Following Lectures
+
+155. TypeScript Overview
