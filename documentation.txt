@@ -1118,3 +1118,5 @@ Section 12: Supplement - TypeScript Primer
 -u funkciji logTodo() parametrima dodajemo tipove
 
 163. Types
+
+164. More on Types
