@@ -1099,3 +1099,7 @@ Section 12: Supplement - TypeScript Primer
 -u terminalu ukucamo komandu tsc index.ts
 -u terminalu ukucamo komandu node index.ts
 -u terminalu ukucamo komandu ts-node index.ts
+
+160. One Quick Change
+-u index.ts fajlu kreiramo varijable const ID, const title i const finished
+-u terminalu ukucamo komandu ts-node index.ts
