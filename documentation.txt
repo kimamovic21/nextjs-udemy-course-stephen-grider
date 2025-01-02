@@ -1081,3 +1081,10 @@ Section 12: Supplement - TypeScript Primer
 -npm i --save-dev @types/node
 -npm uninstall -g typescript
 -npm install -g typescript@5.5
+
+158. A First App
+-otvorimo web stranicu: https://jsonplaceholder.typicode.com/
+-u terminalu ukucamo komandu mkdir fetchjson
+-ukucamo komandu cd fetchjson
+-ukucamo komandu npm init -y
+-ukucamo komandu npm i axios
