@@ -1103,3 +1103,9 @@ Section 12: Supplement - TypeScript Primer
 160. One Quick Change
 -u index.ts fajlu kreiramo varijable const ID, const title i const finished
 -u terminalu ukucamo komandu ts-node index.ts
+
+161. Fetching Errors with TypeScript
+-u index.ts fajlu kreiramo interface Todo
+-u response.data dodajemo as Todo
+-u terminalu ukucamo komandu node index
+-u terminalu ukucamo komandu npx tsx index.ts  
