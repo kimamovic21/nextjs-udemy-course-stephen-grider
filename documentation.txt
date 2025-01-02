@@ -1076,3 +1076,8 @@ Section 12: Supplement - TypeScript Primer
 156. Environment Setup
 -u terminalu ukucamo komandu npm i -g typescript ts-node
 -u terminalu ukucamo komnadu tsc --help
+
+157. Important Axios and TypeScript Version Information
+-npm i --save-dev @types/node
+-npm uninstall -g typescript
+-npm install -g typescript@5.5
