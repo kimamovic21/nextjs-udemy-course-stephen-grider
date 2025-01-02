@@ -1065,3 +1065,8 @@ otvorimo web stranicu: https://bulma.io/
 -u section elementu kreiramo div i p elemente
 -u komponenti App.js, komponentama dodajemo prop description
 -u komponenti ProfileCard.js kreiramo div element sa klasom content
+
+
+Section 12: Supplement - TypeScript Primer
+
+154. A Note About the Following Lectures
