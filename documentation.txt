@@ -1088,3 +1088,14 @@ Section 12: Supplement - TypeScript Primer
 -ukucamo komandu cd fetchjson
 -ukucamo komandu npm init -y
 -ukucamo komandu npm i axios
+
+159. Executing TypeScript Code
+-u folderu fetchjson kreiramo index.ts fajl
+-kreiramo .gitignore fajl
+-u terminalu ukucamo komnadu npm install
+-u index.ts fajl importujemo instancu axios iz paketa Axios
+-kreiramo varijablu const url
+-dodajemo metodu axios.get(url)
+-u terminalu ukucamo komandu tsc index.ts
+-u terminalu ukucamo komandu node index.ts
+-u terminalu ukucamo komandu ts-node index.ts
