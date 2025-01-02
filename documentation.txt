@@ -1116,3 +1116,5 @@ Section 12: Supplement - TypeScript Primer
 -u terminalu ukucamo komandu npx tsx index.ts  
 -u funkciji sa parametrom response pozivamo funkciju logTodo(id, title, completed)
 -u funkciji logTodo() parametrima dodajemo tipove
+
+163. Types
