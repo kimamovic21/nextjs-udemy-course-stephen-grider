@@ -1072,3 +1072,7 @@ Section 12: Supplement - TypeScript Primer
 154. A Note About the Following Lectures
 
 155. TypeScript Overview
+
+156. Environment Setup
+-u terminalu ukucamo komandu npm i -g typescript ts-node
+-u terminalu ukucamo komnadu tsc --help
