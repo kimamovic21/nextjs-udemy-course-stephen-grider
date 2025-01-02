@@ -1109,3 +1109,10 @@ Section 12: Supplement - TypeScript Primer
 -u response.data dodajemo as Todo
 -u terminalu ukucamo komandu node index
 -u terminalu ukucamo komandu npx tsx index.ts  
+
+162. Catching More Errors!
+-otvorimo link: https://stackoverflow.com/questions/62096269/unknown-file-extension-ts-for-a-typescript-file
+-kreiramo funkciju logTodo() sa tri parametra id, title i completed
+-u terminalu ukucamo komandu npx tsx index.ts  
+-u funkciji sa parametrom response pozivamo funkciju logTodo(id, title, completed)
+-u funkciji logTodo() parametrima dodajemo tipove
