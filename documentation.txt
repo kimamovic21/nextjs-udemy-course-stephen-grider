@@ -1126,3 +1126,5 @@ Section 12: Supplement - TypeScript Primer
 -u folderu features kreiramo types.ts fajl
 -u types.ts fajlu kreiramo varijablu const today
 -kreiramo varijablu ojekt const person
+
+166. Where Do We Use Types
