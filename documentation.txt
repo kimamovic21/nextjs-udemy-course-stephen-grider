@@ -1130,3 +1130,12 @@ Section 12: Supplement - TypeScript Primer
 166. Where Do We Use Types
 
 167. Type Annotations and Inference
+
+168. Annotations with Variables
+-u folderu features kreiramo folder annotations
+-u folderu annotations kreiramo variables.ts fajl
+-u variables.ts fajlu kreiramo varijablu const apples sa tipom number
+-kreiramo varijablu let speed sa tipom string
+-kreiramo varijablu let nothingMuch sa tipom null
+-kreiramo varijablu let nothing sa tipom undefined
+-kreiramo varijablu let now sa tipom Date
