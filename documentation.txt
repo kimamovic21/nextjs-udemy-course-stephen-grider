@@ -1139,3 +1139,12 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo varijablu let nothingMuch sa tipom null
 -kreiramo varijablu let nothing sa tipom undefined
 -kreiramo varijablu let now sa tipom Date
+
+169. Object Literal Annotations
+-kreiramo varijablu niz let colors sa tipom string[]
+-kreiramo varijablu niz let myNumbers sa tipom number[]
+-kreiramo varijablu niz let truths sa tipom boolean[]
+-kreiramo varijablu klasu class Car
+-kreiramo varijablu instancu klase let car sa tipom Car
+-kreiramo varijablu objekt let point
+-objektu point dodajemo tipove { x: number; y: number }
