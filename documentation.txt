@@ -1128,3 +1128,5 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo varijablu ojekt const person
 
 166. Where Do We Use Types
+
+167. Type Annotations and Inference
