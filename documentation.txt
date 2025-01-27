@@ -1153,3 +1153,5 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo funkciju logNumber() sa parametrom i
 -parametru i dodajemo tip number
 -funkciji logNumber() dodajemo tip (i: number) => void
+
+171. Understanding Inference
