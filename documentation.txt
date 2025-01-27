@@ -1120,3 +1120,9 @@ Section 12: Supplement - TypeScript Primer
 163. Types
 
 164. More on Types
+
+165. Examples of Types
+-kreiramo folder features
+-u folderu features kreiramo types.ts fajl
+-u types.ts fajlu kreiramo varijablu const today
+-kreiramo varijablu ojekt const person
