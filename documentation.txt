@@ -1180,3 +1180,7 @@ Section 12: Supplement - TypeScript Primer
 -parametrima a i b dodajemo tip number
 -funkciji add() dodajemo tip number
 -u funkciju add() dodajemo izjavu return a + b
+
+177. Inference Around Functions
+-funkciji add() brisemo tip number
+-kreiramo funkciju subtract()
