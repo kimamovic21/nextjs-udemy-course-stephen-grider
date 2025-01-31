@@ -1173,3 +1173,10 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo varijablu let numberAboveZero
 -kreiramo petlju for
 -varijabli let numberAboveZero dodajemo tipove boolean | number
+
+176. More on Annotations Around Functions
+-u folderu features/annotations kreiramo functions.ts fajl
+-u functions.ts fajlu kreiramo funkciju add() sa parametrima a i b
+-parametrima a i b dodajemo tip number
+-funkciji add() dodajemo tip number
+-u funkciju add() dodajemo izjavu return a + b
