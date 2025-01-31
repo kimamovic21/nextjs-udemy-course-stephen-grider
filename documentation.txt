@@ -1167,3 +1167,9 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo varijablu let foundWord
 -kreiramo petlju for
 -varijabli let foundWord dodajemo tip boolean
+
+175. When Inference Doesn't Work
+-kreiramo varijablu niz let numbers
+-kreiramo varijablu let numberAboveZero
+-kreiramo petlju for
+-varijabli let numberAboveZero dodajemo tipove boolean | number
