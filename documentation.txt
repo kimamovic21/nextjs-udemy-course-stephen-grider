@@ -1161,3 +1161,9 @@ Section 12: Supplement - TypeScript Primer
 
 173. Fixing the "Any" Type
 -varijabli const coordinates dodajemo tipove numbers
+
+174. Delayed Initialization
+-kreiramo varijablu niz let words
+-kreiramo varijablu let foundWord
+-kreiramo petlju for
+-varijabli let foundWord dodajemo tip boolean
