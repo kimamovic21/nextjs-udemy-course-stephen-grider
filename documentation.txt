@@ -1187,3 +1187,12 @@ Section 12: Supplement - TypeScript Primer
 
 178. Annotations for Anonymous Functions
 -kreiramo funkcije divide() i multiply()
+
+179. Void and Never
+-kreiramo funkciju logger() sa parametrom message
+-parametru message dodajemo tip string
+-funkciji logger() dodajemo tip void
+-kreiramo funkciju throwError() sa parametrom message
+-parametru message dodajemo tip string
+-u funkciju throwError() dodajemo uslov if (!message) 
+-u uslov if (!message) dodajemo throw new Error(message)
