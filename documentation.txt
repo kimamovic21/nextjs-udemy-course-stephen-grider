@@ -1155,3 +1155,6 @@ Section 12: Supplement - TypeScript Primer
 -funkciji logNumber() dodajemo tip (i: number) => void
 
 171. Understanding Inference
+
+172. The "Any" Type
+-kreiramo varijable const json i const coordinates
