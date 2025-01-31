@@ -1196,3 +1196,10 @@ Section 12: Supplement - TypeScript Primer
 -parametru message dodajemo tip string
 -u funkciju throwError() dodajemo uslov if (!message) 
 -u uslov if (!message) dodajemo throw new Error(message)
+
+180. Destructuring with Annotations
+-kreiramo varijablu objekt const todaysWeather
+-kreiramo funkciju logWeather() sa parametrom forecast
+-parametru forecast dodajemo tipove
+-funkciji logWeather() dodajemo tip void
+-pozivamo funkciju logWeather(todaysWeather)
