@@ -1158,3 +1158,6 @@ Section 12: Supplement - TypeScript Primer
 
 172. The "Any" Type
 -kreiramo varijable const json i const coordinates
+
+173. Fixing the "Any" Type
+-varijabli const coordinates dodajemo tipove numbers
