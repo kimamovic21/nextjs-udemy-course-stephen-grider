@@ -1184,3 +1184,6 @@ Section 12: Supplement - TypeScript Primer
 177. Inference Around Functions
 -funkciji add() brisemo tip number
 -kreiramo funkciju subtract()
+
+178. Annotations for Anonymous Functions
+-kreiramo funkcije divide() i multiply()
