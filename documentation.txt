@@ -1203,3 +1203,9 @@ Section 12: Supplement - TypeScript Primer
 -parametru forecast dodajemo tipove
 -funkciji logWeather() dodajemo tip void
 -pozivamo funkciju logWeather(todaysWeather)
+
+181. Annotations Around Objects
+-u folderu features/annotations kreiramo objects.ts fajl
+-u objects.ts fajlu kreiramo varijablu objekt const profile
+-destruktuiramo varijablu const { age } sa tipom number iz varijable profile
+-destruktuiramo varijablu objekt const { coords }
