@@ -1232,3 +1232,11 @@ Section 12: Supplement - TypeScript Primer
 185. When to Use Typed Arrays
 
 186. Tuples in TypeScript
+
+187. Tuples in Action
+-u folderu features kreiramo tuples.ts fajl
+-u tuples.ts fajlu kreiramo varijablu objekt const drik
+-kreiramo varijablu niz const pepsi
+-kreiramo tip Drink
+-varijabli const pepsi dodajemo tip Drink
+-kreiramo varijable nizove const sprite i const tea sa tipom Drink
