@@ -1277,3 +1277,8 @@ Section 12: Supplement - TypeScript Primer
 -pozivamo funkciju printSummary(drink)
 
 195. General Plan with Interfaces
+
+
+Section 13: Bonus!
+
+196. Bonus!
