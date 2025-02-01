@@ -1230,3 +1230,5 @@ Section 12: Supplement - TypeScript Primer
 -dodajemo dvije metode importantDates.push()
 
 185. When to Use Typed Arrays
+
+186. Tuples in TypeScript
