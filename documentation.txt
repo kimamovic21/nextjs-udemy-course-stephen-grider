@@ -1255,3 +1255,7 @@ Section 12: Supplement - TypeScript Primer
 -funkciji printVehicle() dodajemo tip void
 -u funkciju printVehicle() dodajemo tri funkcije console.log()
 -pozivamo funkciju printVehicle(oldCivic) 
+
+191. Fixing Annotations with Interfaces
+-kreiramo interfejs interface Vehicle
+-u funkciji printVehicle() parametru vehicle dodajemo tip Vehicle
