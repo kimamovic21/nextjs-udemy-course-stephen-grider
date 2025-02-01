@@ -1246,3 +1246,12 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo varijablu objekt const carStats
 
 189. Interfaces
+
+190. Long Type Annotations
+-kreiramo interfaces.ts fajl
+-u interfaces.ts fajlu kreiramo varijablu objekt const oldCivic
+-kreiramo funkciju printVehicle() sa parametrom vehicle
+-parametru vehicle dodajemo tipove u obliku objekta
+-funkciji printVehicle() dodajemo tip void
+-u funkciju printVehicle() dodajemo tri funkcije console.log()
+-pozivamo funkciju printVehicle(oldCivic) 
