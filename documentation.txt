@@ -1072,6 +1072,7 @@ Section 12: Supplement - TypeScript Primer
 154. A Note About the Following Lectures
 
 155. TypeScript Overview
+-otvorimo web stranicu: https://www.typescriptlang.org/play/
 
 156. Environment Setup
 -u terminalu ukucamo komandu npm i -g typescript ts-node
@@ -1259,3 +1260,8 @@ Section 12: Supplement - TypeScript Primer
 191. Fixing Annotations with Interfaces
 -kreiramo interfejs interface Vehicle
 -u funkciji printVehicle() parametru vehicle dodajemo tip Vehicle
+
+192. Syntax Around Interfaces
+-u interfejs Vehicle dodajemo summary(): string
+-u objekt oldCivic dodajemo summary(): string
+-u funkciju printVehicle() dodajemo funkciju console.log(vehicle.summary())
