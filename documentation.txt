@@ -1216,3 +1216,10 @@ Section 12: Supplement - TypeScript Primer
 -nizu carMakers dodajemo tip string[]
 -kreiramo varijablu niz const dates
 -kreiramo varijablu niz const carsByMake sa tipom string[][]
+
+183. Why Typed Arrays ?
+-kreiramo varijable const car i const myCar
+-dodajemo metodu carMakers.push(100)
+-dodajemo metodu carMakers.map()
+-u funkciji map(), anonimnoj funkciji dodajemo tip string
+-u anonimnoj funkciji, parametru car dodajemo tip string
