@@ -1275,3 +1275,5 @@ Section 12: Supplement - TypeScript Primer
 194. Code Reuse with Interfaces
 -kreiramo varijablu objekt const drink
 -pozivamo funkciju printSummary(drink)
+
+195. General Plan with Interfaces
