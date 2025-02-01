@@ -1240,3 +1240,7 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo tip Drink
 -varijabli const pepsi dodajemo tip Drink
 -kreiramo varijable nizove const sprite i const tea sa tipom Drink
+
+188. Why Tuples ?
+-kreiramo varijabla niz const carSpecs sa dva tipa Number
+-kreiramo varijablu objekt const carStats
