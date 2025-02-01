@@ -1223,3 +1223,8 @@ Section 12: Supplement - TypeScript Primer
 -dodajemo metodu carMakers.map()
 -u funkciji map(), anonimnoj funkciji dodajemo tip string
 -u anonimnoj funkciji, parametru car dodajemo tip string
+
+184. Multiple Types in Arrays
+-kreiramo varijablu niz const importantDates
+-nizu importantDates dodajemo tip (Date | string)[]
+-dodajemo dvije metode importantDates.push()
