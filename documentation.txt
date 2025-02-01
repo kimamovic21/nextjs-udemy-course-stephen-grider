@@ -1209,3 +1209,10 @@ Section 12: Supplement - TypeScript Primer
 -u objects.ts fajlu kreiramo varijablu objekt const profile
 -destruktuiramo varijablu const { age } sa tipom number iz varijable profile
 -destruktuiramo varijablu objekt const { coords }
+
+182. Arrays in TypeScript
+-u folderu annotations kreiramo arrays.ts
+-u arrays.ts fajlu kreiramo varijablu niz const carMakers
+-nizu carMakers dodajemo tip string[]
+-kreiramo varijablu niz const dates
+-kreiramo varijablu niz const carsByMake sa tipom string[][]
