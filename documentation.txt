@@ -1228,3 +1228,5 @@ Section 12: Supplement - TypeScript Primer
 -kreiramo varijablu niz const importantDates
 -nizu importantDates dodajemo tip (Date | string)[]
 -dodajemo dvije metode importantDates.push()
+
+185. When to Use Typed Arrays
