@@ -1271,3 +1271,7 @@ Section 12: Supplement - TypeScript Primer
 -funkciju printVehicle() preimenujemo u printSummary()
 -u funkciji printSummary() parametru item dodajemo tip Reportable
 -pozivamo funkciju printSummary(oldCivic)
+
+194. Code Reuse with Interfaces
+-kreiramo varijablu objekt const drink
+-pozivamo funkciju printSummary(drink)
