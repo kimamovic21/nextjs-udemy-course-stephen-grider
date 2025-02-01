@@ -1265,3 +1265,9 @@ Section 12: Supplement - TypeScript Primer
 -u interfejs Vehicle dodajemo summary(): string
 -u objekt oldCivic dodajemo summary(): string
 -u funkciju printVehicle() dodajemo funkciju console.log(vehicle.summary())
+
+193. Functions in Interfaces
+-preimenujemo interfejs Vehicle u Reportable
+-funkciju printVehicle() preimenujemo u printSummary()
+-u funkciji printSummary() parametru item dodajemo tip Reportable
+-pozivamo funkciju printSummary(oldCivic)
