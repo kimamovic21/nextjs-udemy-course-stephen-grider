@@ -1244,3 +1244,5 @@ Section 12: Supplement - TypeScript Primer
 188. Why Tuples ?
 -kreiramo varijabla niz const carSpecs sa dva tipa Number
 -kreiramo varijablu objekt const carStats
+
+189. Interfaces
